@@ -3,6 +3,7 @@
 Different strategies to render React applications in order to get the best performance while keeping SEO, Developer Experience and User Experience.
 
 [Slides](https://slides.com/miguelangeldurangarcia/react-rendering-strategies#)
+[Video](https://youtu.be/3mBc9AVLddw?t=177)
 
 ## Dynamic Rendering 
 If your visitor is a bot, like GoogleBot or Yandex, use Server Side Rendering and Client Side Rendering.
