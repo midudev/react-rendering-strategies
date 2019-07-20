@@ -12,5 +12,5 @@ If your visitor is a real user, use Client Side Rendering.
 ## Static Content 📸
 Server Side Rendering for a component and skip the hydration step on the client. Useful for components that don't need to use interactivity (like SEO links).
 
-## Progressive Rendering 🏁
-Server Side Rendering for a component and skip the hydration step on the client but, as soon as it appears on the viewport, then hydrate it. Useful for list of items.
+## Progressive Hydration 🏁
+Server Side Rendering for a component and skip the hydration step on the client but, as soon as it appears on the viewport, hydrate it. Useful for list of items or components that are not visible on the viewport but yet you need to render them for SEO.
