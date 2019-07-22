@@ -4,7 +4,7 @@ import Card from 'components/Card'
 import Grid from 'components/Grid'
 import Layout from 'components/Layout'
 
-import StaticContent from 'strategies/static-content'
+import StaticContent from '@midudev/react-static-content'
 
 export default function StaticContentPage({articles}) {
   return (

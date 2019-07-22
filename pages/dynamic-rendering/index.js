@@ -3,7 +3,7 @@ import Card from 'components/Card'
 import Grid from 'components/Grid'
 import Layout from 'components/Layout'
 
-import DynamicRendering from 'strategies/dynamic-rendering'
+import DynamicRendering from '@midudev/react-dynamic-rendering'
 
 export default function DynamicRenderingPage({articles, isBot}) {
   return (
