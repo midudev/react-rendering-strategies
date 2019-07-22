@@ -1,7 +1,8 @@
 {
-  "name": "examples",
+  "name": "@midudev/react-rendering-strategies",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "React Rendering Strategies to Improve Performance (TTI) and keep bots compatibility",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -9,20 +10,20 @@
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "react rendering", "dynamic rendering", "static rendering", "progressive hydration"],
+  "author": "Miguel Ángel Durán (@midudev) miduga@gmail.com",
   "license": "ISC",
   "dependencies": {
     "date-fns": "1.30.1",
-    "intersection-observer": "^0.7.0",
+    "intersection-observer": "0.7.0",
     "isomorphic-unfetch": "3.0.0",
-    "next": "8.1.0",
+    "next": "9.0.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-icons": "3.7.0"
   },
   "devDependencies": {
-    "@s-ui/lint": "2.24.0"
+    "@s-ui/lint": "3"
   },
   "eslintConfig": {
     "extends": [
