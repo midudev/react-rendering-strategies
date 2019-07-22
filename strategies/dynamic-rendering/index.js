@@ -6,8 +6,6 @@ export default function DynamicRendering({children, isBot, force}) {
   const ref = useRef(null)
   const isNearScreen = useNearScreen({ref})
 
-  console.log(force)
-
   if (isBot || isNearScreen || force) {
     return children
   } else {
