@@ -1,17 +1,20 @@
 import {useState, useEffect} from 'react'
 
+let observer
 const isClient = typeof window !== 'undefined'
+
 const hasIntersectionObserverSupport = () =>
   typeof window.IntersectionObserver !== 'undefined'
 
 // import intersection observer polyfill only if on client
 // and if not supported by browser
-const getIntersectionObserver = () =>
-  Promise.resolve(
+const getIntersectionObserver = () => {
+  return Promise.resolve(
     isClient &&
       !hasIntersectionObserverSupport() &&
       import('intersection-observer')
   )
+}
 
 // options for intersection observer in order to improve the effect
 const intersectionObserverOptions = {
@@ -28,14 +31,17 @@ const handleIntersect = (entries, observer) => {
     })
 }
 
-// create observer instance
-const observer = getIntersectionObserver().then(
-  () =>
-    new window.IntersectionObserver(
-      handleIntersect,
-      intersectionObserverOptions
-    )
-)
+// get observer from the cache or create a new one
+const getObserver = () =>
+  getIntersectionObserver().then(_ => {
+    if (observer) return observer
+    if (isClient) {
+      return new window.IntersectionObserver(
+        handleIntersect,
+        intersectionObserverOptions
+      )
+    }
+  })
 
 export const useNearScreen = ({ref}) => {
   const [show, setShow] = useState(false)
@@ -44,9 +50,9 @@ export const useNearScreen = ({ref}) => {
     function() {
       const {current} = ref
       if (!current) return
-
-      observer.then(observer => observer.observe(current))
-
+      // get observer async and only when needed
+      getObserver().then(observer => observer.observe(current))
+      // mutate the current target to add a method to be executed when intersecting
       current._onIntersect = observer => {
         setShow(true)
         observer.unobserve(current)
