@@ -48,8 +48,8 @@ export default function CardImage({urlToImage}) {
           object-fit: cover;
           opacity: 0;
           position: absolute;
-          transition: opacity 1.5s ease;
-          transition-delay: 1s;
+          transition: opacity 1s ease;
+          transition-delay: 0.3s;
           width: 100%;
         }
 
