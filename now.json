@@ -1,8 +1,5 @@
 {
   "version": 2,
   "alias": "react-rendering",
-  "name": "react-rendering",
-  "builds": [
-    { "src": "next.config.js", "use": "@now/next" }
-  ]
+  "name": "react-rendering"
 }
