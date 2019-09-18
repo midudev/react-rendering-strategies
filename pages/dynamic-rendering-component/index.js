@@ -7,7 +7,7 @@ import DynamicRendering from '@midudev/react-dynamic-rendering'
 
 export default function DynamicRenderingPage({articles, isBot}) {
   return (
-    <Layout title="Dynamic Rendering">
+    <Layout title="Dynamic Rendering (component)">
       <Grid>
         {articles.map((article, idx) => (
           <DynamicRendering key={idx} isBot={isBot} force={idx < 3}>

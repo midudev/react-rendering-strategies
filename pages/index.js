@@ -21,8 +21,8 @@ function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/dynamic-rendering">
-            <a>Dynamic Rendering</a>
+          <Link href="/dynamic-rendering-component">
+            <a>Dynamic Rendering (component)</a>
           </Link>
         </li>
 
