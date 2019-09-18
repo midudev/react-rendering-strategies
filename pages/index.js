@@ -1,12 +1,18 @@
 import Layout from 'components/Layout'
+import Head from 'next/head'
 import Link from 'next/link'
 
 function Home() {
   return (
     <Layout backButton={false}>
+      <Head>
+        <meta name="yandex-verification" content="1089786801360409" />
+      </Head>
       <img src="/static/strategies.gif" />
       <h1>
-        <strong>React</strong> ⚛︎⚡️<br />rendering strategies
+        <strong>React</strong> ⚛︎⚡️
+        <br />
+        rendering strategies
       </h1>
       <nav>
         <li>
