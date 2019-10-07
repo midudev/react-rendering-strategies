@@ -1,5 +1,3 @@
-import {Container} from 'next/app'
-
 const BOTS_USER_AGENTS = [
   'googlebot',
   'google-structured-data-testing-tool',
@@ -13,11 +11,9 @@ const BotContext = React.createContext()
 
 export default function MainApp({Component, isBot, pageProps}) {
   return (
-    <Container>
-      <BotContext.Provider value={isBot}>
-        <Component {...pageProps} />
-      </BotContext.Provider>
-    </Container>
+    <BotContext.Provider value={isBot}>
+      <Component {...pageProps} />
+    </BotContext.Provider>
   )
 }
 
