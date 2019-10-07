@@ -17,7 +17,11 @@ export default function MainApp({Component, isBot, pageProps}) {
   )
 }
 
-MainApp.getInitialProps = async function getInitialProps({Component, ctx}) {
+MainApp.getInitialProps = async function getInitialProps({
+  Component,
+  ctx,
+  ...rest
+}) {
   const {req} = ctx
   const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
   const isBot = BOTS_USER_AGENTS.some(bot =>

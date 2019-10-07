@@ -20,9 +20,16 @@ function Home() {
             <a>SSR with client rehydration</a>
           </Link>
         </li>
+
         <li>
           <Link href="/dynamic-rendering-component">
-            <a>Dynamic Rendering (component)</a>
+            <a>Dynamic Rendering (by page)</a>
+          </Link>
+        </li>
+
+        <li>
+          <Link href="/dynamic-rendering-component">
+            <a>Dynamic Rendering (by component)</a>
           </Link>
         </li>
 

@@ -5,7 +5,7 @@ import Layout from 'components/Layout'
 
 import DynamicRendering from '@midudev/react-dynamic-rendering'
 
-export default function DynamicRenderingPage({articles, isBot}) {
+export default function DynamicRenderingComponent({articles, isBot}) {
   return (
     <Layout title="Dynamic Rendering (component)">
       <Grid>
@@ -19,4 +19,4 @@ export default function DynamicRenderingPage({articles, isBot}) {
   )
 }
 
-DynamicRenderingPage.getInitialProps = getNews
+DynamicRenderingComponent.getInitialProps = getNews
