@@ -1,4 +1,4 @@
-const {useEffect, useRef, useState} = React
+import {useEffect, useRef, useState} from 'react'
 
 export default function StaticContent({children}) {
   const ref = useRef(null)
