@@ -1,14 +1,14 @@
 {
   "name": "@midudev/react-static-content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Server Side Rendering for a component and skip the hydration step on the client. Useful for components that don't need to use interactivity (like SEO links).",
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "source": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
+    "prepare": "dwp=$(pwd) && ../../node_modules/.bin/babel $dwp/index.js --out-file $dwp/dist/index.js --presets=@babel/react",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -22,8 +22,5 @@
   "license": "ISC",
   "peerDependencies": {
     "react": ">=16.8.0"
-  },
-  "devDependencies": {
-    "microbundle": "0.11.0"
   }
 }
