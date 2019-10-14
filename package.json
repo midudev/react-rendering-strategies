@@ -29,8 +29,9 @@
     "react-icons": "3.7.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.6.2",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/cli": "7.6.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-react": "7.6.3",
     "@s-ui/lint": "3.11.0"
   },
   "eslintConfig": {
