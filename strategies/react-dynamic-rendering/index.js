@@ -1,9 +1,8 @@
-import {useNearScreen} from '../useNearScreen'
-
-const {useRef} = React
+import React, {useRef} from 'react'
+import useNearScreen from './useNearScreen'
 
 export default function DynamicRendering({children, isBot, force}) {
-  const ref = useRef(null)
+  const ref = useRef()
   const isNearScreen = useNearScreen({ref})
 
   if (isBot || isNearScreen || force) {
