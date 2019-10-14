@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react'
 import ReactDOM from 'react-dom'
-import {useNearScreen} from '../useNearScreen'
+import useNearScreen from './useNearScreen'
 
 const EMPTY_HTML = {__html: ''}
 const isServer = typeof window === 'undefined'
