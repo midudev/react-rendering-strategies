@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "dwp=$(pwd) && ../../node_modules/.bin/babel $dwp/index.js --out-file $dwp/dist/index.js --presets=@babel/react",
+    "prepare": "dwp=$(pwd) && ../../node_modules/.bin/babel $dwp/ -d $dwp/dist/ --presets=@babel/react --plugins=@babel/plugin-syntax-dynamic-import",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["react", "react rendering", "dynamic rendering", "static rendering", "progressive hydration"],
