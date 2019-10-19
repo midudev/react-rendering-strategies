@@ -8,7 +8,7 @@ function Home() {
       <Head>
         <meta name="yandex-verification" content="1089786801360409" />
       </Head>
-      <img src="/static/strategies.gif" />
+      <img alt="React Rendering Strategies" src="/strategies.gif" />
       <h1>
         <strong>React</strong> ⚛︎⚡️
         <br />
