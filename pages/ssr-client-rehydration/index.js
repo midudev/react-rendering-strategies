@@ -7,10 +7,12 @@ export default function SSRClientRehydration({articles}) {
   return (
     <Layout
       title="SSR Client Hydration"
-      description="a.k.a Universal Rendering. That's a SSR that, on the client, is being rehdyrated in order to add the needed events and execute all the hooks and life cycles attached to the components."
+      description="Also kwown as Universal Rendering. It's a server side rendering that, on the client, is being rehdyrated in order to add the needed events and execute all the hooks and life cycles attached to the components."
     >
       <Grid>
-        {articles.map((article, idx) => <Card key={idx} {...article} />)}
+        {articles.map((article, idx) => (
+          <Card key={idx} {...article} />
+        ))}
       </Grid>
     </Layout>
   )
