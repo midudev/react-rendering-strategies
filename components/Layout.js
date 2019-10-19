@@ -2,7 +2,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Footer from 'components/Footer'
 
-const BASE_TITLE = 'React ⚛️ rendering strategies'
+const BASE_TITLE = 'React Rendering Strategies'
+const BASE_DESCRIPTION =
+  'Improve React apps performance by using different strategies: Dynamic Rendering, Progressive Hydration and Static Content'
 
 const getTitle = ({title}) => {
   return title ? `${title} - ${BASE_TITLE}` : BASE_TITLE
@@ -11,16 +13,18 @@ export default function Layout({
   backButton = true,
   children,
   title,
-  description
+  description = BASE_DESCRIPTION
 }) {
   return (
     <>
       <Head>
-        <title>{getTitle({title})}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
+        <title>{getTitle({title})}</title>
+        <meta name="description" content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
         <link
-          href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+          href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;display=swap"
           rel="stylesheet"
         />
       </Head>
