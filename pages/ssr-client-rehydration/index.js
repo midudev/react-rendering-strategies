@@ -6,8 +6,8 @@ import Layout from 'components/Layout'
 export default function SSRClientRehydration({articles}) {
   return (
     <Layout
-      title="SSR Client Hydration"
-      description="Also kwown as Universal Rendering. It's a server side rendering that, on the client, is being rehdyrated in order to add the needed events and execute all the hooks and life cycles attached to the components."
+      title="Example of Server Side Rendering with Client Hydration"
+      description="Also known as Universal Rendering. It's a server side rendering that, on the client, is being rehdyrated in order to add the needed events and execute all the hooks and life cycles attached to the components."
     >
       <Grid>
         {articles.map((article, idx) => (
