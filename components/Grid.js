@@ -7,8 +7,8 @@ export default function Grid({children}) {
           display: grid;
           gap: 32px 32px;
           grid-template-columns: 1fr;
-          margin-top: 32px;
-          margin-left: 16px;
+          padding-top: 16px;
+          padding-left: 16px;
           max-width: 500px;
         }
       `}</style>
