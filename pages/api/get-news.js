@@ -1,5 +1,8 @@
 import response from './_api-data.js'
+import Cors from 'micro-cors'
 
-export default (req, res) => {
+function handler(req, res) {
   res.status(200).json(response)
 }
+
+export default Cors()(handler)
