@@ -1,6 +1,6 @@
 {
   "name": "@midudev/react-static-content",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Server Side Rendering for a component and skip the hydration step on the client. Useful for components that don't need to use interactivity (like SEO links).",
   "main": "dist/index.js",
   "source": "index.js",
