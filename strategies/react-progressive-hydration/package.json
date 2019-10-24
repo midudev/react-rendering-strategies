@@ -1,6 +1,6 @@
 {
   "name": "@midudev/react-progressive-hydration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Server Side Rendering for a component and skip the hydration step on the client but, as soon as it appears on the viewport, then hydrate it. Useful for list of items.",
   "main": "dist/index.js",
   "publishConfig": {
@@ -10,7 +10,13 @@
     "prepare": "dwp=$(pwd) && ../../node_modules/.bin/babel $dwp/ -d $dwp/dist/ --presets=@babel/react --plugins=@babel/plugin-syntax-dynamic-import",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react", "react rendering", "dynamic rendering", "static rendering", "progressive hydration"],
+  "keywords": [
+    "react",
+    "react rendering",
+    "dynamic rendering",
+    "static rendering",
+    "progressive hydration"
+  ],
   "author": "Miguel Ángel Durán (@midudev) miduga@gmail.com",
   "license": "ISC",
   "peerDependencies": {
@@ -18,4 +24,3 @@
     "react-dom": ">=16.8.0"
   }
 }
-  
