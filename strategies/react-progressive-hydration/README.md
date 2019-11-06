@@ -6,19 +6,19 @@ Server Side Rendering for a component and skip the hydration step on the client 
 
 ### Benefits... 👍
 
-👀 Only re-hydrate what's visible
-🤳 Thus could greatly improve TTI
-🔛 Activate interactivity on demand
+- 👀 Only re-hydrate what's visible
+- 🤳 Thus could greatly improve TTI
+- 🔛 Activate interactivity on demand
 
 ### Downsides... 👎
-🏋️‍ Hydration data still there
-🥪 Element wrapper needed (ex. <div>)
+- 🏋️‍ Hydration data still there
+- 🥪 Element wrapper needed (ex. <div>)
 
 ### Keep in mind... 🧠
-📸 Kind of lazy loading experience
-🤖 GoogleBot will get the rendered static html (not hydrated)
+- 📸 Kind of lazy loading experience
+- 🤖 GoogleBot will get the rendered static html (not hydrated)
 
-## How to use 👨‍🏫
+## How to use 👨‍🏫
 Just wrap the components you want to be hydrated progressively.
 
 Use `force` prop in order to hydrate the component no matter if it's below the fold.
