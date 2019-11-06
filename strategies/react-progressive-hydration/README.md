@@ -12,7 +12,7 @@ Server Side Rendering for a component and skip the hydration step on the client 
 
 ### Downsides... 👎
 - 🏋️‍ Hydration data still there
-- 🥪 Element wrapper needed (ex. <div>)
+- 🥪 Element wrapper needed (ex. `<div>`)
 
 ### Keep in mind... 🧠
 - 📸 Kind of lazy loading experience
