@@ -44,6 +44,7 @@ function Home() {
         }
         li {
           list-style: none;
+          padding-bottom: 16px;
         }
         h1 {
           font-size: 72px;
@@ -58,22 +59,8 @@ function Home() {
           text-decoration: none;
           transition: all 0.3s ease;
         }
-        a::after {
-          content: '→';
-          font-size: 56px;
-          line-height: 56px;
-          opacity: 0;
-          left: 0;
-          position: absolute;
-          transition: all 0.3s ease;
-          transform: translate3d(-50px, 0, 0);
-        }
         a:hover {
-          padding-left: 64px;
-        }
-        a:hover::after {
-          opacity: 1;
-          transform: translate3d(0, 0, 0);
+          text-decoration: underline;
         }
       `}</style>
     </Layout>
