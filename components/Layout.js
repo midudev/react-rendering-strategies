@@ -36,7 +36,6 @@ export default function Layout({
           </Link>
         )}
         {title && <h1>{title}</h1>}
-        {description && <h2>{description}</h2>}
         {children}
         <Footer />
       </main>
