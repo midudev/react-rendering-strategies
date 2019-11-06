@@ -6,17 +6,17 @@ Server Side Rendering for a component and skip the hydration step on the client.
 
 ### Benefits... 👍
 
-⚡ Avoid re-hydrate for static components
-🤳 Thus could greatly improve TTI
+- ⚡ Avoid re-hydrate for static components
+- 🤳 Thus could greatly improve TTI
 
 ### Downsides... 👎
-⚠️ Lose interactivity
-🏋️‍ Hydration data still there
-🥪 Element wrapper (ex. <div>)
+- ⚠️ Lose interactivity
+- 🏋️‍ Hydration data still there
+- 🥪 Element wrapper (ex. <div>)
 
 ### Keep in mind... 🧠
-📸 For expensive rendering lists or static content (SEO Footers)
-🤖 GoogleBot is definitely going to detect it
+- 📸 For expensive rendering lists or static content (SEO Footers)
+- 🤖 GoogleBot is definitely going to detect it
 
 ## How to use 👨‍🏫
 Just wrap the components you want to be static on the client.

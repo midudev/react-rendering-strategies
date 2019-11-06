@@ -8,18 +8,18 @@ If your visitor is a real user, use Client Side Rendering.
 
 ### Benefits... 👍
 
-✅ Improve TTI
-😴 Lazy Load for the user
+- ✅ Improve TTI
+- 😴 Lazy Load for the user
 
 ### Downsides... 👎
-🚩 Keep Hydration data
-👩‍🔬 Need universal User Agent data
-🤖 Bot still gets full cost
+- 🚩 Keep Hydration data
+- 👩‍🔬 Need universal User Agent data
+- 🤖 Bot still gets full cost
 
 ### Keep in mind... 🧠
-🏋️‍ Perfect for stuff below the fold
-🆓 Free resources from your server
-⏳ Help GoogleBot to index your content faster
+- 🏋️‍ Perfect for stuff below the fold
+- 🆓 Free resources from your server
+- ⏳ Help GoogleBot to index your content faster
 
 ## How to use 👨‍🏫
 Just wrap the components you want to be static on the client.
