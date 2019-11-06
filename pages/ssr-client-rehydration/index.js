@@ -7,7 +7,7 @@ import Head from 'next/head'
 export default function SSRClientRehydration({articles}) {
   return (
     <Layout
-      title="Example of Server Side Rendering with Client Hydration"
+      title="SSR with hydration"
       description="Also known as Universal Rendering. It's a server side rendering that, on the client, is being rehdyrated in order to add the needed events and execute all the hooks and life cycles attached to the components."
     >
       <Head>
