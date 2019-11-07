@@ -8,9 +8,9 @@ export default {
         name: 'awesome.ru'
       },
       author: null,
-      title: 'HolyJS 2019 is running on Crowne Plaza Moscow',
+      title: 'HolyJS 2019 running on Crowne Plaza Moscow',
       description:
-        'Absolutely fantastic conference about Javascript is being held right now on Crowne Plaza Moscow, with some awesome speaker like Miguel Angel Duran.',
+        'Absolutely fantastic conference about Javascript is being held right now on Crowne Plaza Moscow, with some awesome speaker like Miguel Angel Duran from Spain.',
       url: 'https://holyjs.ru/en/',
       urlToImage:
         '//images.ctfassets.net/nn534z2fqr9f/6jeXT77bVYwISOooGmGwqk/528c638eb7ffa1d7a0fb641cbf25653e/msk.jpg',
@@ -130,7 +130,8 @@ export default {
       description:
         'Отечественных спортсменов могут отстранить за несоответствие данных московской лаборатории.',
       url: 'https://m.sovsport.ru/olympic_games/news/2:923058',
-      urlToImage: null,
+      urlToImage:
+        '//images.ctfassets.net/nn534z2fqr9f/6jeXT77bVYwISOooGmGwqk/528c638eb7ffa1d7a0fb641cbf25653e/msk.jpg',
       publishedAt: '2019-11-07T16:09:00Z',
       content:
         ', . .\r\n« « » . , ( ), », – .\r\n , WADA , . , . 8 . , 23 , , . , .'
@@ -468,7 +469,8 @@ export default {
       description:
         'Отечественных спортсменов могут отстранить за несоответствие данных московской лаборатории.',
       url: 'https://m.sovsport.ru/olympic_games/news/2:923058',
-      urlToImage: null,
+      urlToImage:
+        '//images.ctfassets.net/nn534z2fqr9f/6jeXT77bVYwISOooGmGwqk/528c638eb7ffa1d7a0fb641cbf25653e/msk.jpg',
       publishedAt: '2019-11-07T16:09:00Z',
       content:
         ', . .\r\n« « » . , ( ), », – .\r\n , WADA , . , . 8 . , 23 , , . , .'
