@@ -84,6 +84,7 @@ export default function Layout({
           line-height: 56px;
           margin: 0;
           padding-top: 32px;
+          padding-bottom: 32px;
         }
         h2 {
           font-weight: 400;
