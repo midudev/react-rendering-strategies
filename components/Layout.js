@@ -30,7 +30,6 @@ export default function Layout({
       </Head>
 
       <main>
-        {title && <h1>{title}</h1>}
         {children}
         <Footer />
       </main>
