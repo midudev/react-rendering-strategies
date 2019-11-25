@@ -24,15 +24,15 @@
     "intersection-observer": "0.7.0",
     "isomorphic-unfetch": "3.0.0",
     "micro-cors": "0.1.1",
-    "next": "9.1.2",
-    "react": "16.11.0",
-    "react-dom": "16.11.0",
+    "next": "9.1.4",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
     "react-icons": "3.8.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.7.0",
-    "@babel/plugin-syntax-dynamic-import": "7.2.0",
-    "@babel/preset-react": "7.7.0",
+    "@babel/cli": "7.7.4",
+    "@babel/plugin-syntax-dynamic-import": "7.7.4",
+    "@babel/preset-react": "7.7.4",
     "@s-ui/lint": "3.11.0"
   },
   "eslintConfig": {
