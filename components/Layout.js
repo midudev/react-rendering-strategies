@@ -30,6 +30,7 @@ export default function Layout({
       </Head>
 
       <main>
+        <h1>Headlines 🇵🇱</h1>
         {children}
         <Footer />
       </main>
