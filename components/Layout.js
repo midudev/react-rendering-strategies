@@ -30,11 +30,6 @@ export default function Layout({
       </Head>
 
       <main>
-        {backButton && (
-          <Link href="/">
-            <a>← Back</a>
-          </Link>
-        )}
         {title && <h1>{title}</h1>}
         {children}
         <Footer />
