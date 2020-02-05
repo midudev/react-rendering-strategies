@@ -94,6 +94,7 @@ export default function Card({
           max-height: 0;
           overflow: hidden;
           transition: height 0.3s ease;
+          word-break: break-word;
         }
 
         p.show {

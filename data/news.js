@@ -1,684 +1,860 @@
 export default {
   status: 'ok',
-  totalResults: 38,
+  totalResults: 30,
   articles: [
     {
-      source: {
-        id: 'lenta',
-        name: 'Lenta'
-      },
-      author: null,
-      title: 'Жену убитого аль-Багдади поймали в Сирии - Lenta.ru',
+      source: {id: null, name: 'Tvn24.pl'},
+      author: 'TVN METEO',
+      title:
+        'Prognoza zagrożeń IMGW. Znów pojawią się niebezpieczne zjawiska - Fakty TVN',
       description:
-        'Турция поймала жену ликвидированного военными США лидера террористической организации «Исламское государство» (ИГ, запрещена в России) Абу Бакр аль-Багдади. Такое заявление сделал президент Турции Реджеп Эрдоган. Турция поймала жену ликвидированного военными США лидера террористической организации «Исламское государство» (ИГ, запрещена в России) Абу Бакр аль-Багдади. Такое заявление сделал президент Турции Реджеп Эрдоган.Турция поймала жену ликвидированного военными США лидера террористической организации «Исламское государство» (ИГ, запрещена в России) Абу Бакр аль-Багдади. Такое заявление сделал президент Турции Реджеп Эрдоган.«Мы поймали в Сирии его [аль-Багдади] жену. (.…',
-      url: 'https://lenta.ru/news/2019/11/06/albagdadi/',
+        'Pogoda w południowo-wschodniej Polsce może stwarzać niebezpieczeństwo. Instytut Meteorologii i Gospodarki Wodnej wydał prognozę zagrożeń na poniedziałek i noc z poniedziałku na wtorek. Należy spodziewać się marznących opadów i gęstych mgieł.',
+      url:
+        'https://tvnmeteo.tvn24.pl/informacje-pogoda/prognoza,45/prognoza-zagrozen-imgw-znow-pojawia-sie-niebezpieczne-zjawiska,308020,1,0.html',
       urlToImage:
-        'https://icdn.lenta.ru/images/2019/11/06/15/20191106152205058/detail_734cce70b184a78dcc7c24ea97e1913e.jpg',
-      publishedAt: '2019-11-06T12:29:00Z',
+        'https://r-scale-2c.dcs.redcdn.pl/scale/o2/tvn/web-content/m/p5/i/6e79ed05baec2754e25b4eac73a332d2/e0885493-1e8c-44ac-8ee4-e637341a800d.jpg?type=1&quality=80&srcmode=0&srcx=1/1&srcy=1/1&srcw=1/1&srch=1/1&dstw=320&dsth=180',
+      publishedAt: '2019-11-25T10:31:08Z',
       content:
-        '« » (, ) -, . , Reuters.\r\n« [-] . (...) . », . , , .\r\n5 - , , , .\r\n27 , -. , 26 , . - .\r\n*** «»: , , : mir@lenta-co.ru'
+        'Wygasy ostrzeenia synoptyków Instytutu Meteorologii i Gospodarki Wodnej przed gooledzi, jednak zjawisko moe powróci. Poza nim mog wystpi grone mgy. Obowizuje prognoza zagroe IMGW.Z prognozy zagroe wynika, e w województwach lubelskim, witokrzyskim i podkarpack… [+444 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Sports.ru'
-      },
+      source: {id: null, name: 'Tvn24bis.pl'},
+      author: 'TVN24 BIŚ',
+      title:
+        'Bartosz Marczuk (PFR) o wysokości emerytur w Polsce | Z kraju - TVN24 BiS',
+      description:
+        'Przyszłe świadczenia emerytalne będą dużo niższe niż obecnie - pisze na swoim Twitterze wiceprezes Polskiego Funduszu Rozwoju (PFR) i były wiceminister rodziny, pracy i polityki społecznej Bartosz Marczuk i radzi, by "dbać o zdrowie" i "mieć więcej dzieci".',
+      url:
+        'https://tvn24bis.pl/z-kraju,74/bartosz-marczuk-pfr-o-wysokosci-emerytur-w-polsce,988040.html',
+      urlToImage:
+        'https://r-scale-29.dcs.redcdn.pl/scale/o2/tvn/web-content/m/p1/i/7ca57a9f85a19a6e4b9a248c1daca185/d2d27ecb-bfff-4bfd-8aa8-b331f5cc5de2.jpg?type=1&srcmode=4&srcx=0%2F1&srcy=0%2F1&srcw=560&srch=340&dstw=560&dsth=340&quality=75',
+      publishedAt: '2019-11-25T10:11:00Z',
+      content:
+        'Przysze wiadczenia emerytalne bd duo nisze ni obecnie - pisze na swoim Twitterze wiceprezes Polskiego Funduszu Rozwoju (PFR) i byy wiceminister rodziny, pracy i polityki spoecznej Bartosz Marczuk i radzi, by "dba o zdrowie" i "mie wicej dzieci".\r\n"Pasy zapite… [+3205 chars]'
+    },
+    {
+      source: {id: null, name: 'Gwiazdy.wp.pl'},
+      author: 'oprac. Marta Ossowska',
+      title:
+        'Kazik Staszewski chwali młodszych muzyków. "Nie mogę teraz nawet próbować równać" - Wirtualna Polska',
+      description:
+        'Kazik Staszewski od blisko 40 lat występuje na scenie. Przyznaje, że dzisiejsi muzyczni idole osiągają znacznie większe sukcesy niż Kult kiedykolwiek.',
+      url:
+        'https://gwiazdy.wp.pl/kazik-staszewski-chwali-mlodszych-muzykow-nie-moge-teraz-nawet-probowac-rownac-6449869994882689a',
+      urlToImage:
+        'https://d.wpimg.pl/69376786--1183351568/kazik-staszewski.jpg',
+      publishedAt: '2019-11-25T09:51:00Z',
+      content:
+        'Kazik Staszewski od blisko 40 lat wystpuje na scenie. Przyznaje, e dzisiejsi muzyczni idole osigaj znacznie wiksze sukcesy ni Kult kiedykolwiek.\r\nKazik Staszewski docenia muzyk modszych kolegów z brany. (Agencja Gazeta)Cho wikszo Polaków zna i wci nuci piosen… [+1463 chars]'
+    },
+    {
+      source: {id: null, name: 'Gwiazdy.wp.pl'},
+      author: 'oprac. Magdalena Drozdek',
+      title:
+        "Sprawa R. Kelly'ego. Była obrończyni muzyka wyznaje: byłam przetrzymywana, miałam 2 aborcje - Wirtualna Polska",
+      description:
+        "Joycelyn Savage jeszcze niedawno broniła R. Kelly'ego. Gdy muzyka oskarżono o wykorzystywanie seksualne nieletnich, porwania i zmuszanie nieletnich do pracy, ona opowiadała w mediach, że czuła się w jego",
+      url:
+        'https://gwiazdy.wp.pl/sprawa-r-kellyego-byla-obronczyni-muzyka-wyznaje-bylam-przetrzymywana-mialam-2-aborcje-6449862931048577a',
+      urlToImage: 'https://d.wpimg.pl/395844017--1896125353/r-kelly.jpg',
+      publishedAt: '2019-11-25T09:48:00Z',
+      content:
+        "Joycelyn Savage jeszcze niedawno bronia R. Kelly'ego. Gdy muzyka oskarono o wykorzystywanie seksualne nieletnich, porwania i zmuszanie nieletnich do pracy, ona opowiadaa w mediach, e czua si w jego domu dobrze. Dziewczyna zmienia diametralnie zdanie o gwiazdo… [+3676 chars]"
+    },
+    {
+      source: {id: null, name: 'Polsatnews.pl'},
+      author: 'https://www.facebook.com/polsatnewspl',
+      title:
+        'Zwrot akcji ws. szefowej komisji rodziny z Lewicy? Głos zabrał prezes PiS - polsatnews.pl',
+      description:
+        'Zaczęło się od wniosku posłów Solidarnej Polski, którzy chcą odwołania Magdaleny Biejat (Lewica) z funkcji przewodniczącej sejmowej komisji ds. polityki społecznej i rodziny. "To osoba, która niszczy polskie rodziny i chce zabijać poczęte dzieci" - wskazali. …',
+      url:
+        'https://www.polsatnews.pl/wiadomosc/2019-11-25/zwrot-akcji-ws-szefowej-komisji-rodziny-z-lewicy-glos-zabral-prezes-pis/',
+      urlToImage:
+        'https://r.dcs.redcdn.pl/http/o2/redefine/cp/y1/y1rscmezw24fvqwjdfuua2xgucb7y61m.jpg',
+      publishedAt: '2019-11-25T09:08:00Z',
+      content:
+        'Zaczo si od wniosku posów Solidarnej Polski, którzy chc odwoania Magdaleny Biejat (Lewica) z funkcji przewodniczcej sejmowej komisji ds. polityki spoecznej i rodziny. "To osoba, która niszczy polskie rodziny i chce zabija poczte dzieci" - wskazali. Teraz gos … [+5354 chars]'
+    },
+    {
+      source: {id: null, name: 'Radiozet.pl'},
+      author: 'Karolina  Piotrowska',
+      title:
+        'Viki Gabor - kim jest Wiktoria Gabor, zwyciężczyni Eurowizji Junior 2019? [WIEK, WZROST, INSTAGRAM] - Radio ZET',
+      description:
+        'Kim jest Viki Gabor? Wiktoria Gabor została reprezentantką Polski na Eurowizji Junior 2019 i wygrała konkurs! Sprawdzamy najważniejsze informacje, które chcielibyście wiedzieć o Wiktorii Gabor - kim jest Viki Gabor, ile ma lat, data urodzenia, rok urodzenia, …',
+      url:
+        'https://www.radiozet.pl/Co-gdzie-kiedy-jak/Viki-Gabor-kim-jest-Wiktoria-Gabor-zwyciezczyni-Eurowizji-Junior-2019-WIEK-WZROST-INSTAGRAM',
+      urlToImage:
+        'https://gfx.radiozet.pl/var/radiozet/storage/images/co-gdzie-kiedy-jak/viki-gabor-kim-jest-wiktoria-gabor-zwyciezczyni-eurowizji-junior-2019-wiek-wzrost-instagram/1625315-1-pol-PL/Viki-Gabor-kim-jest-Wiktoria-Gabor-zwyciezczyni-Eurowizji-Junior-2019-WIEK-WZROST-INSTAGRAM_article.jpg',
+      publishedAt: '2019-11-25T09:03:00Z',
+      content:
+        'Kim jest Viki Gabor, ile ma lat, skd pochodzi? Po wygranej w Szansie na Sukces, a nastpnie na Eurowizji Junior 2019 wiele osób poszukuje informacji na temat modej piosenkarki. Poniej przedstawiamy najwaniejsze fakty i wyjaniamy, kim jest Wiktoria Gabor.Viki G… [+3208 chars]'
+    },
+    {
+      source: {id: null, name: 'Onet.pl'},
       author: null,
       title:
-        'Рабинер о Ракицком: «Собственные профессиональные проблемы объяснять политическими кознями проще всего&r - Sports.ru',
+        'Bałtów: Są wyniki referendum. Mieszkańcy odwołali Radę Gminy - Kielce - Onet',
       description:
-        'Журналист Игорь Рабинер прокомментировал решение защитника «Зенита» Ярослава Ракицкого завершить карьеру в сборной Украины.',
-      url: 'https://www.sports.ru/football/1079906008.html',
+        'Zaledwie rok po wyborach samorządowych mieszkańcy gminy Bałtów w woj. świętokrzyskim zdecydowali o odwołaniu Rady Gminy. Było to pierwsze w tej kadencji takie referendum w Polsce.',
+      url: 'https://www.onet.pl',
       urlToImage:
-        'https://www.sports.ru/dynamic_images/news/107/990/600/8/share/625df8.jpg',
-      publishedAt: '2019-11-06T12:16:00Z',
+        'https://ocdn.eu/images/pulscms/OWU7MDA_/20ec3038d7c7d1637e04da3395de954d.png',
+      publishedAt: '2019-11-25T08:25:08Z',
       content:
-        '«»  .\r\n« , . « 2019 », «» . : « . , ».\r\n , , , , , , ( , ): « . ?»\r\n, . «» «» « », -, . -2020 : « !»\r\n, «» , .\r\n, , , , ? , , . .\r\n , , . . , , . «» .\r\n . », -.\r\n : « »'
+        'Zaledwie rok po wyborach samorzdowych mieszkacy gminy Batów w woj. witokrzyskim zdecydowali o odwoaniu Rady Gminy. Byo to pierwsze w tej kadencji takie referendum w Polsce.\r\nW Radzie Gminy Batów praktycznie od pocztku jej powoania dochodzio do konfliktów. Dod… [+682 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Bbc.com'
-      },
-      author: 'https://www.facebook.com/bbcnews',
+      source: {id: null, name: 'Gazeta.pl'},
+      author: 'NPK',
       title:
-        '"Один из последних титанов эпохи". Умер Лев Аннинский - BBC Русская служба',
+        'Julian Assange jest ciężko chory? 60 lekarzy uważa, że może umrzeć w więzieniu. "Sytuacja jest pilna" - Gazeta.pl',
       description:
-        'Литературный критик и литературовед Лев Аннинский скончался на 86-м году жизни.',
-      url: 'https://www.bbc.com/russian/news-50317950',
+        "60 lekarzy podpisało się pod listem otwartym apelującym o przeniesienie założyciela Wikileaks Juliana Assange'a z więzienia do szpitala. Według nich stan zdrowia australijskiego aktywisty jest na tyle zły, że może on nawet umrzeć.",
+      url:
+        'http://next.gazeta.pl/next/7,151003,25445594,zdrowie-juliana-assange-a-jest-zle-60-lekarzy-stwierdza-ze.html',
       urlToImage:
-        'https://ichef.bbci.co.uk/news/1024/branded_russian/4013/production/_109530461_tass_5093366.jpg',
-      publishedAt: '2019-11-06T11:13:24Z',
+        'https://bi.im-g.pl/im/f3/44/18/z25445619IER,Julian-Assange.jpg',
+      publishedAt: '2019-11-25T08:24:00Z',
       content:
-        'Vyacheslav Prokofyev/TASS\r\n 86- . -- , , .\r\n "".\r\n" , , - . - , , , - - ".\r\n " ", "", " ", " " " ". , .\r\n" "\r\n" , . - - , , - -- . - , 80-, : - , - , -, ". \r\n" , . , . , ", - . \r\n . " " - " ", " ". " " - " ". " " " ", , ", - .\r\n" 85 , , - . - , . - ".\r\n" "\r\n"… [+293 chars]'
+        '60 lekarzy zaapelowao o przeniesienie zaoyciela Wikileaks z wizienia Belmarsh w poudniowo-wschodniej czci Londynu do uniwersyteckiego szpitala. Oparli oni swoj ocen na podstawie "wstrzsajcych relacji naocznych wiadków" oraz raportu specjalnego sprawozdawcy ON… [+1788 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Ria.ru'
-      },
+      source: {id: null, name: 'Tvn24.pl'},
+      author: 'TVN24',
+      title:
+        'Rumunia. Statek z tysiącami owiec przewrócił się na Morzu Czarnym - TVN24',
+      description:
+        'Statek, którym transportowano ponad 14 tysięcy owiec, przewrócił się na bok na Morzu Czarnym u wybrzeży Rumunii. Udało się uratować wszystkich członków załogi, jednak zaledwie 32 zwierzęta. Aktywiści twierdzą, że statek był przeładowany i żądają dochodzenia w…',
+      url:
+        'https://www.tvn24.pl/wiadomosci-ze-swiata,2/rumunia-statek-z-tysiacami-owiec-przewrocil-sie-na-morzu-czarnym,988002.html',
+      urlToImage:
+        'https://r-scale-c0.dcs.redcdn.pl/scale/o2/tvn/web-content/m/p1/i/7ca57a9f85a19a6e4b9a248c1daca185/922289cf-8304-4c19-93cc-104977135b48.jpg?type=1&srcmode=4&srcx=0/1&srcy=0/1&srcw=640&srch=2000&dstw=640&dsth=2000&quality=90',
+      publishedAt: '2019-11-25T08:19:00Z',
+      content:
+        'Statek, którym transportowano ponad 14 tysicy owiec, przewróci si na bok na Morzu Czarnym u wybrzey Rumunii. Udao si uratowa wszystkich czonków zaogi, jednak zaledwie 32 zwierzta. Aktywici twierdz, e statek by przeadowany i daj dochodzenia w tej sprawie.\r\nczy… [+1480 chars]'
+    },
+    {
+      source: {id: null, name: 'Pclab.pl'},
+      author: 'Mateusz Brzostek',
+      title:
+        'Intel Core i9-10980XE (Cascade Lake X) – 18 rdzeni po raz trzeci - PCLab.pl',
+      description:
+        'Intel nie był w tej sytuacji od lat: najwyższy model z najnowszej generacji najwydajniejszych procesorów pojawia się w sprzedaży za jedyne 1000 dolarów. Choć poprzednie 18-rdzeniowe procesory kosztowały dwa razy więcej w chwili wprowadzenia na rynek, dziś cię…',
+      url: 'https://pclab.pl/art82514.html',
+      urlToImage:
+        'https://pclab.pl/zdjecia/artykuly/mbrzostek/2019/csl_x/cslx_360.jpg',
+      publishedAt: '2019-11-25T08:01:00Z',
+      content:
+        'Intel nie by w tej sytuacji od lat: najwyszy model z najnowszej generacji najwydajniejszych procesorów pojawia si w sprzeday za jedyne 1000 dolarów. Cho poprzednie 18-rdzeniowe procesory kosztoway dwa razy wicej w chwili wprowadzenia na rynek, dzi ciko byoby … [+6852 chars]'
+    },
+    {
+      source: {id: null, name: 'Interia.pl'},
       author: '',
       title:
-        'Миллер обсудил с представителем Германии пакетную сделку с Киевом по газу - РИА Новости',
-      description:
-        'Глава "Газпрома" Алексей Миллер обсудил с уполномоченным правительства Германии по транзиту газа через Украину Георгом Графом Вальдерзее взаимодействие... РИА Новости, 06.11.2019',
-      url: 'https://ria.ru/20191106/1560634606.html',
-      urlToImage:
-        'https://cdn22.img.ria.ru/images/sharing/article/1560634606.jpg?15553919911573043146',
-      publishedAt: '2019-11-06T11:12:57Z',
-      content:
-        'https://ria.ru/20191106/1560634606.html\r\nhttps://cdn25.img.ria.ru/images/155539/19/1555391994_0:288:3072:2016_1036x0_80_0_0_3cd1f9f1c4fa8221a03e7f4c12c09e11.jpg.webp\r\nhttps://cdn22.img.ria.ru/i/export/ria/logo.png\r\nhttps://cdn22.img.ria.ru/i/export/ria/logo.p… [+31 chars]'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Iz.ru'
-      },
-      author: 'Светлана Храмова',
-      title:
-        'Путин рассказал о не имеющем аналогов в мире российском оружии - Известия',
-      description:
-        'Президент России Владимир Путин рассказал, что страна обладает оружием, которое не имеет аналогов в мире, при этом не станет никому им угрожать. Об этом он сказал в среду, 6 ноября, на встрече с высшими офицерами и прокурорами по случаю их назначения на вышес…',
+        'Słabsza produkcja, nastroje i rynek pracy. Czy nadchodzi spowolnienie? - Interia',
+      description: 'Kliknij i zobacz wiecej.',
       url:
-        'https://iz.ru/940245/2019-11-06/putin-rasskazal-o-ne-imeiushchem-analogov-v-mire-rossiiskom-oruzhii',
+        'http://biznes.interia.pl/makroekonomia/news/slabsza-produkcja-nastroje-i-rynek-pracy-czy-nadchodzi,2636540,2156',
       urlToImage:
-        'http://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2019-11/TASS_35653200_0.jpg?itok=7xr4apBo',
-      publishedAt: '2019-11-06T11:03:18Z',
+        '//img.interia.pl/biznes/nimg/r/g/Polska_gospodarka_hamuje_7143708.jpg',
+      publishedAt: '2019-11-25T07:51:05Z',
       content:
-        ', , , . , 6 , () .\r\n , , , , . , « , - ».\r\n«, , », « ».\r\n , , .\r\n12 , « ». , , « , ».\r\n27 , , «», «» «», «». , «, , , ».'
+        'Padziernik by trzecim miesicem z rzdu i ju pitym w tym roku, w którym zatrudnienie w przedsibiorstwach (tych, w których pracuje co najmniej 10 osób) spadao. cznie w sierpniu, wrzeniu i padzierniku zmalao o 14 tys. osób. Firmy mog ogranicza zatrudnienie, kiedy… [+4976 chars]'
     },
     {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
+      source: {id: null, name: 'Wiadomosci.wp.pl'},
+      author: 'oprac. Katarzyna Bogdańska',
       title:
-        'Le Parisien сообщила о госпитализации актрисы Катрин Денев - РБК Недвижимость',
+        'Jacek Jaśkowiak tłumaczy swój start w prawyborach. "Nie kłamałem" - Wirtualna Polska',
       description:
-        'Французскую актрису Катрин Денев госпитализировали в Париже в ночь на 6 ноября, сообщила Le Parisien. По информации газеты, 76-летнюю актрису доставили в городскую больницу в тяжелом состоянии . ...',
-      url: 'https://www.rbc.ru/rbcfreenews/5dc2a2a59a79473cd9d1c36f',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/1/08/755730376164081.jpg',
-      publishedAt: '2019-11-06T10:53:00Z',
-      content:
-        '6 , Le Parisien.\r\n , 76- « ». , « ».\r\n « », 1964 . - «». 1981 Souviens-toi de m’oublier. «» («»)  — ,  (« »).\r\n 2002 «8 », « » . «», 2020 .'
-    },
-    {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
-      title:
-        'Иран начал закачку газа в центрифуги на ядерном объекте в Фордо - РБК',
-      description:
-        'Иран 6 ноября доставил цистерну с 2 т фторида урана (UF-6) в загрузочный цех ядерных установок объекта в Фордо для закачки газа в свои центрифужные машины. Об этом сообщает Fars News. Как передает ...',
-      url: 'https://www.rbc.ru/rbcfreenews/5dc2a3739a79473c79c891ec',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/4/77/755730374050774.jpg',
-      publishedAt: '2019-11-06T10:50:00Z',
-      content: '4   30 IR-6, . 490   2660 .   , .'
-    },
-    {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
-      title:
-        'Отец срочника ответил на слова сына о причинах расстрела сослуживцев - РБК',
-      description:
-        'Расстрелявший сослуживцев в Забайкалье срочник Рамиль Шамсутдинов намекал, что ему угрожали изнасилованием, но не говорил об этом прямо, заявил РБК его отец Салим. Многих, говорит, молодых там уже ...',
-      url: 'https://www.rbc.ru/rbcfreenews/5dc2a2cd9a79473cd9d1c371',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/0/29/755730371269290.jpg',
-      publishedAt: '2019-11-06T10:45:00Z',
-      content:
-        ', , , .\r\n«, , . , , , —  , . . , - . , , », — -.\r\n , , ,  , , , . « , . , , . , . , , », — .\r\n 6 Telegram- Baza , , , . « . , , . , , , », — Baza .'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Vc.ru'
-      },
-      author: 'Альберт Хабибрахимов',
-      title:
-        '«Яндекс» начал продавать свои колонки бизнесу: первыми их установил отель Crowne Plaza Moscow в своих номерах — Техника на vc.ru - vc.ru',
-      description:
-        'Так компания сможет увеличить количество пользователей «Станции» — до сих пор она продавалась только в рознице.',
+        'Jacek Jaśkowiak przyznał, że decyzję o wzięciu udziału w prawyborach Platformy Obywatelskiej podjął dzień przed złożeniem swojego zgłoszenia. Jak przekonywał, ma swój pomysł na kampanię wyborczą.',
       url:
-        'https://vc.ru/tech/91311-yandeks-nachal-prodavat-svoi-kolonki-biznesu-pervymi-ih-ustanovil-otel-crowne-plaza-moscow-v-svoih-nomerah',
-      urlToImage: 'https://vc.ru/cover/fb/c/91311/1573037873/cover.jpg',
-      publishedAt: '2019-11-06T10:01:20Z',
+        'https://wiadomosci.wp.pl/jacek-jaskowiak-tlumaczy-swoj-start-w-prawyborach-nie-klamalem-6449834120009857a',
+      urlToImage: 'https://d.wpimg.pl/1740816709-1818485355/jaskowiak.jpg',
+      publishedAt: '2019-11-25T07:46:00Z',
       content:
-        '«» .\r\n«» Crowne Plaza Moscow World Trade Centre. «.» «», vc.ru -.\r\n «» 15 « », 11 . , , Crowne Plaza Moscow .\r\n«.» . : , , . «» , .\r\n . «». , .\r\n. , «», . «» .\r\n , «», . . , . \r\n , , .\r\n, «.» b2b. «» -. «» , 2019 , « » .\r\n«.» Crowne Plaza Moscow - «» . , , , … [+177 chars]'
+        'Jacek Jakowiak przyzna, e decyzj o wziciu udziau w prawyborach Platformy Obywatelskiej podj dzie przed zoeniem swojego zgoszenia. Jak przekonywa, ma swój pomys na kampani wyborcz.\r\nJacek Jakowiak startuje w prawyborach PO (Forum)- Dzie przed zoeniem swojego z… [+1357 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Motor.ru'
-      },
-      author: 'Анастасия Дубина',
-      title: 'Вот так будет выглядеть салон новой Skoda Octavia - Motor.ru',
-      description:
-        'Штаб-квартира марки Skoda опубликовала первые эскизы интерьера Octavia нового поколения. Судя по изображению, это будет чуть ли не самый революционный апдейт салона за всю историю модели.',
-      url: 'https://motor.ru/news/new-octavia-interior-06-11-2019.htm',
-      urlToImage:
-        'https://motor.ru/thumb/908x475/filters:quality(75)/imgs/2019/11/06/09/3643488/235fed78f899a946d86f1247d3f3e0774ce21567.jpg',
-      publishedAt: '2019-11-06T09:45:55Z',
-      content: '. . \r\n , . . , Octavia - Climatronic.'
-    },
-    {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
-      title: 'Лавров не поддержал лишение аккредитации Deutsche Welle - РБК',
-      description:
-        'МИД России не поддерживает предложение лишить немецкую телерадиокомпанию аккредитации, заявил глава ведомства Сергей Лавров, передает корреспондент РБК. МИД не поддерживает идеи, которые ...',
-      url: 'https://www.rbc.ru/rbcfreenews/5dc2878a9a79472cd92200fd',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/2/10/755730314362102.jpg',
-      publishedAt: '2019-11-06T09:10:00Z',
-      content:
-        ', , .\r\n« , », — . « . », — . , Deutsche Welle .\r\n, DW , . « , . DW   . , DW , », — Deutsche Welle .\r\n27 Deutsche Welle . , DW , Twitter « ». , 3 . , . , DW  — , . Deutsche Welle , , « ».'
-    },
-    {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
+      source: {id: null, name: 'Gazeta.pl'},
+      author: 'IAR, kn',
       title:
-        'Полицейские установили возможного убийцу главы центра «Э» Ингушетии - РБК',
+        'Martwe morświny w Bałtyku. Nieoficjalnie: zabiła je niemiecka marynarka. "Całkowity upadek" - Gazeta.pl',
       description:
-        'Правоохранительные органы установили личность одного из подозреваемых в убийстве начальника Центра противодействия экстремизму МВД Ингушетии Ибрагима Эльджаркиева и его брата',
-      url: 'https://www.rbc.ru/society/06/11/2019/5dc28b9e9a79472e821dc85d',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/1/14/755730326339141.jpg',
-      publishedAt: '2019-11-06T09:08:00Z',
-      content:
-        ', () , .\r\n« , , , 42- , 5 , 18 », — . , .\r\n , .\r\n - 2 . . 2 . 105 ( ).\r\n3 , , , . 5 - , , « ».'
-    },
-    {
-      source: {
-        id: null,
-        name: '3dnews.ru'
-      },
-      author: null,
-      title:
-        'Вейпинг по-прежнему популярен у американских старшеклассников - 3DNews',
-      description:
-        'Согласно опубликованному во вторник опросу National Youth Tobacco Survey (NYTS), каждый четвёртый ученик старших классов и каждый десятый ученик средних школ в США пробовал электронные средства курения (вейп) в течение последних 30 дней.',
-      url: 'https://3dnews.ru/997049',
-      urlToImage:
-        'https://3dnews.ru/assets/external/illustrations/2019/11/06/997049/sm.944071892.jpg.0.750.jpg',
-      publishedAt: '2019-11-06T09:07:03Z',
-      content:
-        'National Youth Tobacco Survey (NYTS), () 30 .\r\nDiedra Laird/Charlotte Observer/Tribune News Service / Getty Images\r\n, , , .\r\n , Journal of the American Medical Association, , Juul .\r\n, , , . , , , .\r\n , , .'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Nplus1.ru'
-      },
-      author: 'Александр Войтюк',
-      title:
-        '«Вояджер-2» рассказал о свойствах местной межзвездной среды - N+1',
-      description:
-        '«Вояджер-2» рассказал о свойствах местной межзвездной среды',
-      url: 'https://nplus1.ru/news/2019/11/06/Voyager2-interstellar',
-      urlToImage:
-        'https://nplus1.ru/images/2019/11/06/f75a7c2e69126c34dd3b59b9516d2945.jpg',
-      publishedAt: '2019-11-06T09:02:00Z',
-      content:
-        'NASA/JPL-Caltech\r\n«-2» , . , , , . (1,2,3,4,5) Nature.\r\n «» 1970- , - , . , , 42 . «-2» 122 . «-1»,  147,5 , . \r\n25 2012 «-1», 121,6 , , ( , ), (Very Local Interstellar Medium, VLISM). , , . , , . , , «-1» «»,   , .\r\n  «-2» , , , , CRS (Cosmic Ray Subsystem) … [+190 chars]'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Sport-express.ru'
-      },
-      author: null,
-      title:
-        '«Локомотив» — «Ювентус», 6 ноября 2019, Криштиану Роналду в России, какой он в жизни - Спорт-Экспресс',
-      description:
-        'Нападающий «Ювентуса» Криштиану Роналду впервые с лета 2018 года прилетел в Россию, где сыграет с «Локомотивом» в Лиге чемпионов.',
+        'Niemieckie organizacje ekologiczne twierdzą, że w czasie ćwiczeń marynarki wojennej na Bałtyku Zachodnim zabito 18 morświnów. Zwierzęta miały zginąć podczas detonacji min. Są pod ochroną. Lokalne władze domagają się reakcji na poziomie federalnym.',
       url:
-        'https://www.sport-express.ru/football/champions-league/reviews/lokomotiv-yuventus-6-noyabrya-2019-krishtianu-ronaldu-v-rossii-kakoy-on-v-zhizni-1607295/',
+        'http://next.gazeta.pl/next/7,172392,25444055,niemcy-marynarka-wojenna-zabila-18-morswinow-na-baltyku-zwierzeta.html',
       urlToImage:
-        'https://ss.sport-express.ru/userfiles/materials/149/1495545/large.jpg',
-      publishedAt: '2019-11-06T09:00:00Z',
+        'https://bi.im-g.pl/im/f0/44/18/z25445616IER,Cwiczenia-na-morzu.jpg',
+      publishedAt: '2019-11-25T07:40:03Z',
       content:
-        '«»   2018  , «»   . «»  ,      , ,    .\r\n .4- . D«»  «». 6 . 20.55 ()\r\n , .   -2018\r\n    ,   ,   .   . ,    . ,   . . ,    3-5 . , .   , ,    .   , , ,    .       ,     .\r\n   ,   .  , , ,    . ,     .    ,    ,      .        .    .\r\n    , ,  . ,   . ,    ,  .… [+286 chars]'
+        'Na pocztku wrzenia marynarka wojenna prowadzia wiczenia w cieninie pomidzy niemieck wysp Fehrman a dusk wysp Lolland. W ramach wicze wysadzono 39 brytyjskich min z okresu pierwszej wojny wiatowej. Miao si to przyczyni do mierci morwinów - ssaków morskich, któ… [+1320 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Igromania.ru'
-      },
-      author: null,
+      source: {id: null, name: 'Sportowefakty.wp.pl'},
+      author: 'Wirtualna Polska Media',
       title:
-        'Первый мод для PC-версии Red Dead Redemption 2 превратит Артура Моргана в Джокера - Игромания',
+        'Skoki narciarskie. Puchar Świata w Wiśle. Kamil Stoch spotkał Piotra Żyłę po jego upadku. "Grał w Pokemony" - WP SportoweFakty',
       description:
-        'Команда моддеров также намерена заменить главного героя игры на Терминатора.',
+        'Gdy Kamil Stoch wpadł na Piotra Żyłę między pierwszą a drugą serią konkursu PŚ w Wiśle, ten grał na komórce w Pokemon GO. To zasugerowało utytułowanemu skoczkowi, że z jego kolegą z kadry wszystko w porządku.',
       url:
-        'https://www.igromania.ru/news/87876/Pervyy_mod_dlya_PC-versii_Red_Dead_Redemption_2_prevratit_Artura_Morgana_v_Dzhokera.html',
+        'https://sportowefakty.wp.pl/skoki-narciarskie/856137/skoki-narciarskie-puchar-swiata-w-wisle-kamil-stoch-spotkal-piotra-zyle-po-jego-',
       urlToImage:
-        'https://cdn.igromania.ru/mnt/news/e/b/9/e/6/9/87876/e31a7532ccab189f_1200xH.jpg',
-      publishedAt: '2019-11-06T08:46:00Z',
+        'https://sportowefakty.wp.pl/storage/featured_original/5dda7c01487d87_57953993.jpg',
+      publishedAt: '2019-11-25T07:35:00Z',
       content:
-        '06.11.2019 11:46  |  \r\nRed Dead Redemption 2Rockstar Games LauncherEpic Games Store , 5 , RedDeadModders PC- .\r\n Arthur Morgan as The Joker . , .\r\n, Red Dead Redemption 2 . , Rockstar Games Launcher. , .'
+        'Gdy Kamil Stoch wpad na Piotra y midzy pierwsz a drug seri konkursu P w Wile, ten gra na komórce w Pokemon GO. To zasugerowao utytuowanemu skoczkowi, e z jego koleg z kadry wszystko w porzdku.\r\nGrzegorz Wojnarowski25 Listopada 2019, 08:35\r\nW niedzielnych zawo… [+1609 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Www.mk.ru'
-      },
-      author: null,
+      source: {id: null, name: 'Sport.pl'},
+      author: 'MLZ',
       title:
-        'Отец рядового Шамсутдинова назвал причину массового расстрела - Московский Комсомолец',
+        'Doncić lepszy od Hardena! Młoda gwiazda NBA znów prowadzi Mavericks do zwycięstwa - Sport.pl',
       description:
-        'Отец рядового срочной службы Рамиля Шамсутдинова, расстрелявшего восемь военнослужащих в воинской части в Забайкалье, рассказал о встрече с сыном в СИЗО',
+        'Luka Donicić nie zamierza się zatrzymywać! Słoweniec po raz kolejny poprowadził Dallas Mavericks do zwycięstwa - tym razem z Houston Rockets. 20-latek zapisał na swoim koncie 41 punktów i był najlepiej punktującym zawodnikiem spotkania dwóch zespołów ze stanu…',
       url:
-        'https://www.mk.ru/incident/2019/11/06/otec-ryadovogo-shamsutdinova-nazval-prichinu-massovogo-rasstrela.html',
+        'http://www.sport.pl/koszykowka/7,65035,25445518,doncic-lepszy-od-hardena-mloda-gwiazda-nba-znow-poprowadzila.html',
       urlToImage:
-        'https://static.mk.ru/upload/entities/2019/11/06/11/articles/facebookPicture/ad/3d/ce/42/80f4351a2ad73f8412c2ca12d3f41302.jpg',
-      publishedAt: '2019-11-06T08:41:16Z',
+        'https://bi.im-g.pl/im/95/44/18/z25445525IER,Luka-Doncic-poprowadzil-Dallas-Mavericks-do-zwycie.jpg',
+      publishedAt: '2019-11-25T07:25:00Z',
       content:
-        ', (). 77-45245 - " " ". : 125993, . , . 1905 , . 7, . 1. : +7(495)609-44-44, +7(495)609-44-33 , e-mail info@mk.ru. - .. .   , www.mk.ru, \r\n . , www.mk.ru \r\n , \r\n . , \r\n mk.ru, .\r\n : «- »,\r\n « », « », « », « »,\r\n « », -, , « . », « », « »,\r\n «», «».: « », « »,… [+31 chars]'
+        'Niedzielne starcie midzy dwoma zespoami z Teksasu byo zapowiadane jako pojedynek dwóch gwiazd caej ligi - Jamesa Hardena i Luki Doncicia. Jak si okazao modo wzia gór nad dowiadczeniem - prowadzeni przez 20-letniego Soweca Dallas Mavericks wygrali na wyjedzie … [+1203 chars]'
     },
     {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
-      title: 'Wall Street Journal сообщила о планах Xerox купить HP - РБК',
+      source: {id: null, name: 'Gazeta.pl'},
+      author: 'NPK',
+      title:
+        'Świnoujście. Ruszyła akcja wydobycia 900-kilogramowej miny. Utrudnienia w ruchu kołowym i morskim - Wiadomosci Gazeta.pl',
       description:
-        'Рыночная стоимость HP составляет около $27 млрд, что в три раза больше, чем у покупателя. Xerox при этом хочет предложить за HP цену выше рыночной',
+        'W poniedziałek po godzinie siódmej rano rozpoczęła się akcja wydobycia niewybuchu znalezionego na torze wodnym Szczecin-Świnoujście. Próbę podjęcia 900-kilogramowej miny przeprowadzi 8. Flotylla Obrony Wybrzeża.',
       url:
-        'https://www.rbc.ru/technology_and_media/06/11/2019/5dc27e8c9a794728e85d6260',
+        'http://wiadomosci.gazeta.pl/wiadomosci/7,114883,25445513,swinoujscie-ruszyla-akcja-wydobycia-900-kilogramowej-miny.html',
       urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/9/77/755730293227779.jpg',
-      publishedAt: '2019-11-06T08:34:00Z',
+        'https://bi.im-g.pl/im/90/44/18/z25445520IER,Port-w-Swinoujsciu.jpg',
+      publishedAt: '2019-11-25T07:13:00Z',
       content:
-        'Xerox Holdings HP Inc., $27  — Xerox. The Wall Street Journal (WSJ) .\r\n Xerox , 5 . Xerox HP, , , . .\r\n WSJ, Xerox  $2,3 Fujifilm Holdings Corp. Fujifilm Xerox 25% Fuji Xerox 100% .\r\n Xerox, ( ), , 10- . HP, - ( ), , . , 2018 , WSJ, 58 .\r\n , , , $2 . , WSJ, X… [+10 chars]'
+        'Jak podaje "Wyborcza" proces wydobycia rozpoczął się w poniedziałek 25 listopada po godzinie siódmej rano. Mina z czasów II wojny światowej zlokalizowana jest w Kanale Piastowskim czyli części toru wodnego Szczecin-Świnoujście.\r\nZnajdujący się na dnie niewybu… [+1275 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Mail.ru'
-      },
-      author: 'Виталий Лапиков',
+      source: {id: null, name: 'Gry-online.pl'},
+      author: 'Froozyy',
       title:
-        'Почему прямоугольные часы лучше круглых — объясняет Xiaomi - Hi-Tech Mail.ru',
-      description: 'Дело не только в желании производителей выделиться.',
-      url: 'https://hi-tech.mail.ru/news/mi_watch_forma/',
-      urlToImage:
-        'https://htstatic.imgsmail.ru/pic_share/7cee23dbe59c446ec6d07f51eab50358/1675195/c/46423?time=1573042548',
-      publishedAt: '2019-11-06T08:30:00Z',
-      content:
-        'Mi Mi Watch Xiaomi , , . Gizmochina.\r\n-, , . .\r\n-, , Xiaomi, . , .\r\n-, Apple Watch Xiaomi Mi Watch . , , , . Xiaomi, .\r\nXiaomi Mi Watch 5 . , , , . 10 .\r\n , . . MIUI Wear OS Google. 36 .\r\n Mi Watch 1299 , 12 . Apple Watch Series 5 2 . Mi Watch  1999 , 18 .'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Vedomosti.ru'
-      },
-      author: 'Кирилл Буланов',
-      title:
-        'Медведев уволил куратора мусорной реформы в Минприроды - Ведомости',
+        'CD Projekt RED rozważa monetyzację trybu multiplayer w Cyberpunku 2077 - gry-online.pl',
       description:
-        'Владимир Логинов уходит по собственному желанию меньше чем через год после назначения',
+        'Podczas ostatniej telekonferencji finansowej firmy CD Projekt zdradzono, że tryb multiplayer w Cyberpunku 2077 jest już na wczesnym etapie tworzenia. Dowiedzieliśmy się również, że rozważane jest wdrożenie do niego przemyślanego systemu mikropłatności.',
       url:
-        'https://www.vedomosti.ru/politics/articles/2019/11/06/815531-kuratora-musornoi',
-      urlToImage:
-        'https://sharing.vedomosti.ru/1573041485/vedomosti.ru/politics/articles/2019/11/06/815531-kuratora-musornoi.jpg',
-      publishedAt: '2019-11-06T08:25:21Z',
+        'https://www.gry-online.pl/newsroom/cyberpunk-2077-tryb-multiplayer-jest-na-wczesnym-etapie-tworzenia/z31d09e',
+      urlToImage: 'https://www.gry-online.pl/i/w/h3/720_312300596.jpg',
+      publishedAt: '2019-11-25T06:54:13Z',
       content:
-        ', . , .\r\n«» - . « - », . , . « , , . », .\r\n2018 . , : .\r\n54 . 1980- . , 1997 . . 19972000 . « » , 20002002 . . 2002 2009 . «». 2009 ., , .\r\n, , , , .\r\n70 , , 57%, , , . 2019 . , , , , ( , - ).\r\n. . 90% 50 ., « » () . , 2023 . , , 2023 . . , , , . 85 32. .\r\n, … [+19 chars]'
+        'Wiadomogrywczoraj, 13:11\r\nPodczas ostatniej telekonferencji finansowej firmy CD Projekt zdradzono, e tryb multiplayer w Cyberpunku 2077 jest ju na wczesnym etapie tworzenia. Dowiedzielimy si równie, e rozwaane jest wdroenie do niego przemylanego systemu mikro… [+2841 chars]'
     },
     {
-      source: {
-        id: 'lenta',
-        name: 'Lenta'
-      },
-      author: null,
-      title: 'Жену убитого аль-Багдади поймали в Сирии - Lenta.ru',
-      description:
-        'Турция поймала жену ликвидированного военными США лидера террористической организации «Исламское государство» (ИГ, запрещена в России) Абу Бакр аль-Багдади. Такое заявление сделал президент Турции Реджеп Эрдоган. «Мы поймали в Сирии его [аль-Багдади] жену. (.…',
-      url: 'https://lenta.ru/news/2019/11/06/albagdadi/',
-      urlToImage:
-        'https://icdn.lenta.ru/images/2019/11/06/15/20191106152205058/detail_734cce70b184a78dcc7c24ea97e1913e.jpg',
-      publishedAt: '2019-11-06T12:29:00Z',
-      content:
-        '« » (, ) -, . , Reuters.\r\n« [-] . (...) . », . , , .\r\n5 - , , , .\r\n27 , -. , 26 , . - .\r\n*** «»: , , : mir@lenta-co.ru'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Sports.ru'
-      },
+      source: {id: null, name: 'Dziennik.pl'},
       author: null,
       title:
-        'Рабинер о Ракицком: «Собственные профессиональные проблемы объяснять политическими кознями проще всего&r - Sports.ru',
+        'Polowanie na miliardy. Tak rządzący chcą załatać dziurę w państwowych finansach - Kobieta Dziennik.pl',
       description:
-        'Журналист Игорь Рабинер прокомментировал решение защитника «Зенита» Ярослава Ракицкого завершить карьеру в сборной Украины.',
-      url: 'https://www.sports.ru/football/1079906008.html',
+        'Dziurę w państwowych finansach, powstałą po tym, jak nie udało się zlikwidować 30-krotności przy wpłatach na ZUS, załatać mogą – nawet z nadwyżką – uszczelnienie obrotu importowanymi śmieciami czy większe od zakładanych wpływy ze sprzedaży częstotliwości dla …',
+      url:
+        'https://gospodarka.dziennik.pl/emerytury-i-ofe/artykuly/613651,budzet-pis-porozumienie-30-krotnosc-zus.html',
       urlToImage:
-        'https://www.sports.ru/dynamic_images/news/107/990/600/8/share/625df8.jpg',
-      publishedAt: '2019-11-06T12:16:00Z',
+        'https://s6.dziennik.pl/pliki/12470000/12470775-pieniadze-zloty-3-643-385.jpg',
+      publishedAt: '2019-11-25T06:38:00Z',
       content:
-        '«»  .\r\n« , . « 2019 », «» . : « . , ».\r\n , , , , , , ( , ): « . ?»\r\n, . «» «» « », -, . -2020 : « !»\r\n, «» , .\r\n, , , , ? , , . .\r\n , , . . , , . «» .\r\n . », -.\r\n : « »'
+        'Midzy innymi takie propozycje przedstawiaj politycy Porozumienia Jarosawa Gowina w ramach rozmów koalicyjnych z Prawem i Sprawiedliwoci. Takich rozwiza nie wykluczaj take osoby z rzdu, z którymi rozmawialimy. W KPRM i resorcie finansów trwa przegld scenariusz… [+4190 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Bbc.com'
-      },
-      author: 'https://www.facebook.com/bbcnews',
+      source: {id: null, name: 'Natemat.pl'},
+      author: 'Łukasz Grzegorczyk',
       title:
-        '"Один из последних титанов эпохи". Умер Лев Аннинский - BBC Русская служба',
+        'Wiceminister o wyroku sądu w Olsztynie. Mówi o drodze do anarchii - naTemat',
       description:
-        'Литературный критик и литературовед Лев Аннинский скончался на 86-м году жизни.',
-      url: 'https://www.bbc.com/russian/news-50317950',
+        'Listy poparcia kandydatów do Krajowej Rady Sądownictwa miały być ujawnione. Z wypowiedzi wiceministra sprawiedliwości Michała Wójcika wynika jednak, że nie ma na to szans. Ostatni wyrok sądu w Olsztynie w tej sprawie polityk nazwał drogą do anarchii.',
+      url:
+        'https://natemat.pl/291675,wiceminister-o-wyroku-sadu-w-olsztynie-mowi-o-drodze-do-anarchii',
       urlToImage:
-        'https://ichef.bbci.co.uk/news/1024/branded_russian/4013/production/_109530461_tass_5093366.jpg',
-      publishedAt: '2019-11-06T11:13:24Z',
-      content:
-        'Vyacheslav Prokofyev/TASS\r\n 86- . -- , , .\r\n "".\r\n" , , - . - , , , - - ".\r\n " ", "", " ", " " " ". , .\r\n" "\r\n" , . - - , , - -- . - , 80-, : - , - , -, ". \r\n" , . , . , ", - . \r\n . " " - " ", " ". " " - " ". " " " ", , ", - .\r\n" 85 , , - . - , . - ".\r\n" "\r\n"… [+293 chars]'
+        'https://cdn.natemat.pl/a6f516703431a1d6f1f85489323572e4,1024,0,0,0.jpg',
+      publishedAt: '2019-11-25T06:22:00Z',
+      content: null
     },
     {
-      source: {
-        id: null,
-        name: 'Ria.ru'
-      },
+      source: {id: null, name: 'Boop.pl'},
+      author: null,
+      title:
+        'Aphelios ma być najtrudniejszą postacią w LoLu. Riot spodziewa się niskiego winratio - BOOP.pl',
+      description:
+        'Nowy bohater w League of Legends, o którym więcej dowiemy się zapewne już dzisiaj, może być najtrudniejszy w całej Lidze. Aphelios póki co jest niezłą zagadką. Od strony gameplay’u znamy jedynie jego wygląd. Nieco więcej ujawnia sam Riot, który jak się dowied…',
+      url:
+        'https://boop.pl/league-of-legends/aphelios-ma-byc-najtrudniejsza-postacia-w-lolu-riot-spodziewa-sie-niskiego-winratio',
+      urlToImage: 'https://cdn.boop.pl/uploads/2019/11/aa-1.jpg',
+      publishedAt: '2019-11-25T06:13:23Z',
+      content:
+        'Nowy bohater w League of Legends, o którym wicej dowiemy si zapewne ju dzisiaj, moe by najtrudniejszy w caej Lidze.\r\nAphelios póki co jest niez zagadk. Od strony gameplayu znamy jedynie jego wygld. Nieco wicej ujawnia sam Riot, który jak si dowiedzielimy, prz… [+291 chars]'
+    },
+    {
+      source: {id: null, name: 'Interia.pl'},
+      author: null,
+      title: 'Podkarpacie: Akcja CBA w Ustrzykach Dolnych - Interia',
+      description: 'Kliknij i zobacz więcej.',
+      url:
+        'https://fakty.interia.pl/podkarpackie/news-podkarpacie-akcja-cba-w-ustrzykach-dolnych,nId,3353850',
+      urlToImage: 'https://i.iplsc.com/-/00098MVI9HO13BCT-C411.jpg',
+      publishedAt: '2019-11-25T06:13:00Z',
+      content:
+        'Centralne Biuro Antykorupcyjne prowadzi kontrol w Urzdzie Miejskim w Ustrzykach Dolnych (Podkarpackie). Kontrola dotyczy udzielania zamówie publicznych przez gmin w latach 2017-19.\r\nZdjcieCBA, zdj. ilustracyjne/Stanisaw Kowalczuk /East News\r\nSekretarz gminy U… [+1025 chars]'
+    },
+    {
+      source: {id: null, name: 'Rmf24.pl'},
+      author: null,
+      title:
+        'Spektakularne zwycięstwo obozu demokratycznego w wyborach w Hongkongu - RMF 24',
+      description:
+        '300 na 492 mandaty zdobyli kandydaci obozu demokratycznego w wyborach do rad dzielnicowych, jakie przeprowadzono w niedzielę w Hongkongu – podaje Reuters. Telewizja RTHK oceniła, że zwycięstwo pro-demokratycznych kandydatów jest jeszcze wyższe. Według stacji,…',
+      url:
+        'https://www.rmf24.pl/fakty/swiat/news-spektakularne-zwyciestwo-obozu-demokratycznego-w-wyborach-w-,nId,3353843',
+      urlToImage: 'https://i.iplsc.com/-/0009ESWGF0RTVWXX-C411.jpg',
+      publishedAt: '2019-11-25T05:46:00Z',
+      content:
+        '300 na 492 mandaty zdobyli kandydaci obozu demokratycznego w wyborach do rad dzielnicowych, jakie przeprowadzono w niedziel w Hongkongu podaje Reuters. Telewizja RTHK ocenia, e zwycistwo pro-demokratycznych kandydatów jest jeszcze wysze. Wedug stacji, mieli o… [+2272 chars]'
+    },
+    {
+      source: {id: null, name: 'Interia.pl'},
+      author: '',
+      title: 'Polsko-duńska wyspa wiatrów - Interia',
+      description: 'Kliknij i zobacz wiecej.',
+      url:
+        'http://biznes.interia.pl/wiadomosci/news/polsko-dunska-wyspa-wiatrow,2636536,4199',
+      urlToImage:
+        '//img.interia.pl/biznes/nimg/s/y/Nasz_kraj_zbuduje_Dania_7143703.jpg',
+      publishedAt: '2019-11-25T05:45:00Z',
+      content:
+        '"Puls Biznesu" podkrela, e od wyborów parlamentarnych z 2015 r. Dania zajmuje w polskiej polityce zagranicznej wane miejsce - jest partnerem we flagowej inwestycji naszego rzdu, czyli w Baltic Pipe i projekcie gazocigu czcego Polsk z Norwegia przez Dani.\r\nJes… [+635 chars]'
+    },
+    {
+      source: {id: null, name: 'Interia.pl'},
+      author: null,
+      title:
+        'Sondaż prezydencki dla "DGP" i RMF FM: Kandydaci KO przegrywają z Andrzejem Dudą - Interia',
+      description: 'Kliknij i zobacz więcej.',
+      url:
+        'https://fakty.interia.pl/polska/news-sondaz-prezydencki-dla-dgp-i-rmf-fm-kandydaci-ko-przegrywaja,nId,3353834',
+      urlToImage: 'https://i.iplsc.com/-/0009ESW4WHRDMXUG-C411.jpg',
+      publishedAt: '2019-11-25T05:10:00Z',
+      content:
+        'aden z kandydatów Koalicji Obywatelskiej nie ma wikszych szans wygra z Andrzejem Dud w drugiej turze wyborów prezydenckich - taki wniosek pynie z prezydenckiego sondau Instytutu Bada Rynkowych i Spoecznych IBRiS dla "Dziennika Gazety Prawnej" i RMF FM. Jak wy… [+2448 chars]'
+    },
+    {
+      source: {id: null, name: 'Wiadomosci.wp.pl'},
+      author: 'oprac. Violetta Baran',
+      title:
+        'USA szykują sankcje wobec Nord Stream 2. "Rosjanie będą musieli szukać innej drogi" - Wirtualna Polska',
+      description:
+        'Jim Risch, przewodniczący komisji spraw zagranicznych Senatu USA, poinformował, że do projektu amerykańskiej ustawy o budżecie resortu obrony na rok finansowy 2020  wpisano sankcje na firmy uczestniczące',
+      url:
+        'https://wiadomosci.wp.pl/usa-szykuja-sankcje-wobec-nord-stream-2-rosjanie-beda-musieli-szukac-innej-drogi-6449678657701505a',
+      urlToImage: 'https://d.wpimg.pl/1440500930-1769511311/nord-stream-2.jpg',
+      publishedAt: '2019-11-24T20:54:00Z',
+      content:
+        'Jim Risch, przewodniczcy komisji spraw zagranicznych Senatu USA, poinformowa, e do projektu amerykaskiej ustawy o budecie resortu obrony na rok finansowy 2020 wpisano sankcje na firmy uczestniczce w budowie Nord Stream 2. - Myl, e Rosjanie bd musieli szuka in… [+1520 chars]'
+    },
+    {
+      source: {id: null, name: 'Onet.pl'},
+      author: null,
+      title:
+        'Tenis: rekord na meczu Roger Federer - Alexander Zverev - Onet.pl',
+      description:
+        '<strong>Spotkanie pokazowe między Szwajcarem Rogerem Federerem i Niemcem Alexandrem Zverevem w Meksyku obejrzała rekordowa liczba widzów w przypadku meczu tenisowego. Na trybunach zasiadło 42517 widzów.</strong>',
+      url: 'https://www.onet.pl',
+      urlToImage:
+        'https://ocdn.eu/images/pulscms/OWU7MDA_/20ec3038d7c7d1637e04da3395de954d.png',
+      publishedAt: '2019-11-24T17:27:57Z',
+      content:
+        'Spotkanie pokazowe midzy Szwajcarem Rogerem Federerem i Niemcem Alexandrem Zverevem w Meksyku obejrzaa rekordowa liczba widzów w przypadku meczu tenisowego. Na trybunach zasiado 42517 widzów.\r\nPojedynek odby si na najwikszej na wiecie arenie walk byków, a Fed… [+290 chars]'
+    },
+    {
+      source: {id: null, name: 'Urania.edu.pl'},
+      author: null,
+      title: 'Tytan zmapowany niczym Ziemia - Urania - Postępy Astronomii',
+      description:
+        'Pod wieloma względami najbardziej podobnym do Ziemi globem w całym Układzie Słonecznym jest największy księżyc Saturna, Tytan. Astronomowie z NASA JPL i Uniwersytetu Stanowej w Arizonue wykorzystali właśnie dane zbierane przez wiele lat przez sondę Cassini do…',
+      url: 'https://www.urania.edu.pl/wiadomosci/tytan-zmapowany-niczym-ziemia',
+      urlToImage:
+        'https://www.urania.edu.pl/sites/default/files/2019-11/assets.newatlas.com_.jpeg',
+      publishedAt: '2019-11-24T17:03:40Z',
+      content:
+        'Pod wieloma wzgldami najbardziej podobnym do Ziemi globem w caym Ukadzie Sonecznym jest najwikszy ksiyc Saturna, Tytan. Astronomowie z NASA JPL i Uniwersytetu Stanowej w Arizonie wykorzystali wanie dane zbierane przez wiele lat przez sond Cassini do wykonania… [+3153 chars]'
+    },
+    {
+      source: {id: null, name: 'Wyborcza.pl'},
+      author: null,
+      title:
+        'Michael Bloomberg oficjalnie ogłosił start w wyborach prezydenckich w USA. "Chcę odbudować Amerykę" - Gazeta Wyborcza',
+      description: null,
+      url:
+        'https://wyborcza.pl/7,75399,25444179,michael-bloomberg-oficjalnie-oglosil-start-w-wyborach-prezydenckich.html?disableRedirects=true',
+      urlToImage:
+        'https://www.skijumping.pl/content/images/news/powieksz/murankaklemens_2019-07-09_22-40-34.jpg',
+      publishedAt: '2019-11-24T16:11:32Z',
+      content: null
+    },
+    {
+      source: {id: null, name: 'Skijumping.pl'},
+      author: null,
+      title:
+        'Polska siódemka na Rukę, Dolezal podsumowuje weekend w Wiśle - Skijumping.pl',
+      description:
+        'Nie opadły jeszcze emocje związane z inauguracją Pucharu Świata w Wiśle, a już poznaliśmy kadrę Polski na następne zawody. Trener Michal Dolezal wytypował siedmiu zawodnik&oacute;w, kt&oacute;rzy w przyszłym tygodniu wystąpią w Ruce (HS142).',
+      url:
+        'https://www.skijumping.pl/wiadomosci/27106/polska-siodemka-na-ruke-dolezal-podsumowuje-weekend-w-wisle/',
+      urlToImage:
+        'https://www.skijumping.pl/content/images/news/powieksz/murankaklemens_2019-07-09_22-40-34.jpg',
+      publishedAt: '2019-11-24T14:24:00Z',
+      content:
+        'Szanujemy Twoje prawo do prywatnoci. Dlatego opracowalimy ten dokument, który prezentuje nasze stanowisko w sprawie gromadzenia, przetwarzania i wykorzystywania informacji o uytkownikach. Poniej przedstawiamy informacje na temat uywanych w ramach naszej witry… [+10505 chars]'
+    },
+    {
+      source: {id: null, name: 'Natemat.pl'},
+      author: 'Aleksandra Gersz',
+      title:
+        'Kim Kardashian wspomina Met Galę 2013. Wszyscy śmiali się z jej sukni - naTemat',
+      description:
+        'Minęło sześć lat, ale ona wciąż nie może o tym zapomnieć. Kim Kardashian West wyznała w "Vogue", że żarty z jej słynnej kwiecistej sukni z Met Gali, kreacji nazywanej czule "kanapą", doprowadziły ją do łez. Kim nie darował nawet nieżyjący już komik i aktor Ro…',
+      url:
+        'https://natemat.pl/291625,kim-kardashian-wspomina-met-gale-2013-wszyscy-smiali-sie-z-jej-sukni',
+      urlToImage:
+        'https://cdn.natemat.pl/c55e327212f980b48969e364f5f43869,1024,0,0,0.jpg',
+      publishedAt: '2019-11-24T13:57:00Z',
+      content: null
+    },
+    {
+      source: {id: null, name: 'Tvn24.pl'},
+      author: 'TVN METEO',
+      title:
+        'Prognoza zagrożeń IMGW. Znów pojawią się niebezpieczne zjawiska - Fakty TVN',
+      description:
+        'Pogoda w południowo-wschodniej Polsce może stwarzać niebezpieczeństwo. Instytut Meteorologii i Gospodarki Wodnej wydał prognozę zagrożeń na poniedziałek i noc z poniedziałku na wtorek. Należy spodziewać się marznących opadów i gęstych mgieł.',
+      url:
+        'https://tvnmeteo.tvn24.pl/informacje-pogoda/prognoza,45/prognoza-zagrozen-imgw-znow-pojawia-sie-niebezpieczne-zjawiska,308020,1,0.html',
+      urlToImage:
+        'https://r-scale-2c.dcs.redcdn.pl/scale/o2/tvn/web-content/m/p5/i/6e79ed05baec2754e25b4eac73a332d2/e0885493-1e8c-44ac-8ee4-e637341a800d.jpg?type=1&quality=80&srcmode=0&srcx=1/1&srcy=1/1&srcw=1/1&srch=1/1&dstw=320&dsth=180',
+      publishedAt: '2019-11-25T10:31:08Z',
+      content:
+        'Wygasy ostrzeenia synoptyków Instytutu Meteorologii i Gospodarki Wodnej przed gooledzi, jednak zjawisko moe powróci. Poza nim mog wystpi grone mgy. Obowizuje prognoza zagroe IMGW.Z prognozy zagroe wynika, e w województwach lubelskim, witokrzyskim i podkarpack… [+444 chars]'
+    },
+    {
+      source: {id: null, name: 'Tvn24bis.pl'},
+      author: 'TVN24 BIŚ',
+      title:
+        'Bartosz Marczuk (PFR) o wysokości emerytur w Polsce | Z kraju - TVN24 BiS',
+      description:
+        'Przyszłe świadczenia emerytalne będą dużo niższe niż obecnie - pisze na swoim Twitterze wiceprezes Polskiego Funduszu Rozwoju (PFR) i były wiceminister rodziny, pracy i polityki społecznej Bartosz Marczuk i radzi, by "dbać o zdrowie" i "mieć więcej dzieci".',
+      url:
+        'https://tvn24bis.pl/z-kraju,74/bartosz-marczuk-pfr-o-wysokosci-emerytur-w-polsce,988040.html',
+      urlToImage:
+        'https://r-scale-29.dcs.redcdn.pl/scale/o2/tvn/web-content/m/p1/i/7ca57a9f85a19a6e4b9a248c1daca185/d2d27ecb-bfff-4bfd-8aa8-b331f5cc5de2.jpg?type=1&srcmode=4&srcx=0%2F1&srcy=0%2F1&srcw=560&srch=340&dstw=560&dsth=340&quality=75',
+      publishedAt: '2019-11-25T10:11:00Z',
+      content:
+        'Przysze wiadczenia emerytalne bd duo nisze ni obecnie - pisze na swoim Twitterze wiceprezes Polskiego Funduszu Rozwoju (PFR) i byy wiceminister rodziny, pracy i polityki spoecznej Bartosz Marczuk i radzi, by "dba o zdrowie" i "mie wicej dzieci".\r\n"Pasy zapite… [+3205 chars]'
+    },
+    {
+      source: {id: null, name: 'Gwiazdy.wp.pl'},
+      author: 'oprac. Marta Ossowska',
+      title:
+        'Kazik Staszewski chwali młodszych muzyków. "Nie mogę teraz nawet próbować równać" - Wirtualna Polska',
+      description:
+        'Kazik Staszewski od blisko 40 lat występuje na scenie. Przyznaje, że dzisiejsi muzyczni idole osiągają znacznie większe sukcesy niż Kult kiedykolwiek.',
+      url:
+        'https://gwiazdy.wp.pl/kazik-staszewski-chwali-mlodszych-muzykow-nie-moge-teraz-nawet-probowac-rownac-6449869994882689a',
+      urlToImage:
+        'https://d.wpimg.pl/69376786--1183351568/kazik-staszewski.jpg',
+      publishedAt: '2019-11-25T09:51:00Z',
+      content:
+        'Kazik Staszewski od blisko 40 lat wystpuje na scenie. Przyznaje, e dzisiejsi muzyczni idole osigaj znacznie wiksze sukcesy ni Kult kiedykolwiek.\r\nKazik Staszewski docenia muzyk modszych kolegów z brany. (Agencja Gazeta)Cho wikszo Polaków zna i wci nuci piosen… [+1463 chars]'
+    },
+    {
+      source: {id: null, name: 'Gwiazdy.wp.pl'},
+      author: 'oprac. Magdalena Drozdek',
+      title:
+        "Sprawa R. Kelly'ego. Była obrończyni muzyka wyznaje: byłam przetrzymywana, miałam 2 aborcje - Wirtualna Polska",
+      description:
+        "Joycelyn Savage jeszcze niedawno broniła R. Kelly'ego. Gdy muzyka oskarżono o wykorzystywanie seksualne nieletnich, porwania i zmuszanie nieletnich do pracy, ona opowiadała w mediach, że czuła się w jego",
+      url:
+        'https://gwiazdy.wp.pl/sprawa-r-kellyego-byla-obronczyni-muzyka-wyznaje-bylam-przetrzymywana-mialam-2-aborcje-6449862931048577a',
+      urlToImage: 'https://d.wpimg.pl/395844017--1896125353/r-kelly.jpg',
+      publishedAt: '2019-11-25T09:48:00Z',
+      content:
+        "Joycelyn Savage jeszcze niedawno bronia R. Kelly'ego. Gdy muzyka oskarono o wykorzystywanie seksualne nieletnich, porwania i zmuszanie nieletnich do pracy, ona opowiadaa w mediach, e czua si w jego domu dobrze. Dziewczyna zmienia diametralnie zdanie o gwiazdo… [+3676 chars]"
+    },
+    {
+      source: {id: null, name: 'Polsatnews.pl'},
+      author: 'https://www.facebook.com/polsatnewspl',
+      title:
+        'Zwrot akcji ws. szefowej komisji rodziny z Lewicy? Głos zabrał prezes PiS - polsatnews.pl',
+      description:
+        'Zaczęło się od wniosku posłów Solidarnej Polski, którzy chcą odwołania Magdaleny Biejat (Lewica) z funkcji przewodniczącej sejmowej komisji ds. polityki społecznej i rodziny. "To osoba, która niszczy polskie rodziny i chce zabijać poczęte dzieci" - wskazali. …',
+      url:
+        'https://www.polsatnews.pl/wiadomosc/2019-11-25/zwrot-akcji-ws-szefowej-komisji-rodziny-z-lewicy-glos-zabral-prezes-pis/',
+      urlToImage:
+        'https://r.dcs.redcdn.pl/http/o2/redefine/cp/y1/y1rscmezw24fvqwjdfuua2xgucb7y61m.jpg',
+      publishedAt: '2019-11-25T09:08:00Z',
+      content:
+        'Zaczo si od wniosku posów Solidarnej Polski, którzy chc odwoania Magdaleny Biejat (Lewica) z funkcji przewodniczcej sejmowej komisji ds. polityki spoecznej i rodziny. "To osoba, która niszczy polskie rodziny i chce zabija poczte dzieci" - wskazali. Teraz gos … [+5354 chars]'
+    },
+    {
+      source: {id: null, name: 'Radiozet.pl'},
+      author: 'Karolina  Piotrowska',
+      title:
+        'Viki Gabor - kim jest Wiktoria Gabor, zwyciężczyni Eurowizji Junior 2019? [WIEK, WZROST, INSTAGRAM] - Radio ZET',
+      description:
+        'Kim jest Viki Gabor? Wiktoria Gabor została reprezentantką Polski na Eurowizji Junior 2019 i wygrała konkurs! Sprawdzamy najważniejsze informacje, które chcielibyście wiedzieć o Wiktorii Gabor - kim jest Viki Gabor, ile ma lat, data urodzenia, rok urodzenia, …',
+      url:
+        'https://www.radiozet.pl/Co-gdzie-kiedy-jak/Viki-Gabor-kim-jest-Wiktoria-Gabor-zwyciezczyni-Eurowizji-Junior-2019-WIEK-WZROST-INSTAGRAM',
+      urlToImage:
+        'https://gfx.radiozet.pl/var/radiozet/storage/images/co-gdzie-kiedy-jak/viki-gabor-kim-jest-wiktoria-gabor-zwyciezczyni-eurowizji-junior-2019-wiek-wzrost-instagram/1625315-1-pol-PL/Viki-Gabor-kim-jest-Wiktoria-Gabor-zwyciezczyni-Eurowizji-Junior-2019-WIEK-WZROST-INSTAGRAM_article.jpg',
+      publishedAt: '2019-11-25T09:03:00Z',
+      content:
+        'Kim jest Viki Gabor, ile ma lat, skd pochodzi? Po wygranej w Szansie na Sukces, a nastpnie na Eurowizji Junior 2019 wiele osób poszukuje informacji na temat modej piosenkarki. Poniej przedstawiamy najwaniejsze fakty i wyjaniamy, kim jest Wiktoria Gabor.Viki G… [+3208 chars]'
+    },
+    {
+      source: {id: null, name: 'Onet.pl'},
+      author: null,
+      title:
+        'Bałtów: Są wyniki referendum. Mieszkańcy odwołali Radę Gminy - Kielce - Onet',
+      description:
+        'Zaledwie rok po wyborach samorządowych mieszkańcy gminy Bałtów w woj. świętokrzyskim zdecydowali o odwołaniu Rady Gminy. Było to pierwsze w tej kadencji takie referendum w Polsce.',
+      url: 'https://www.onet.pl',
+      urlToImage:
+        'https://ocdn.eu/images/pulscms/OWU7MDA_/20ec3038d7c7d1637e04da3395de954d.png',
+      publishedAt: '2019-11-25T08:25:08Z',
+      content:
+        'Zaledwie rok po wyborach samorzdowych mieszkacy gminy Batów w woj. witokrzyskim zdecydowali o odwoaniu Rady Gminy. Byo to pierwsze w tej kadencji takie referendum w Polsce.\r\nW Radzie Gminy Batów praktycznie od pocztku jej powoania dochodzio do konfliktów. Dod… [+682 chars]'
+    },
+    {
+      source: {id: null, name: 'Gazeta.pl'},
+      author: 'NPK',
+      title:
+        'Julian Assange jest ciężko chory? 60 lekarzy uważa, że może umrzeć w więzieniu. "Sytuacja jest pilna" - Gazeta.pl',
+      description:
+        "60 lekarzy podpisało się pod listem otwartym apelującym o przeniesienie założyciela Wikileaks Juliana Assange'a z więzienia do szpitala. Według nich stan zdrowia australijskiego aktywisty jest na tyle zły, że może on nawet umrzeć.",
+      url:
+        'http://next.gazeta.pl/next/7,151003,25445594,zdrowie-juliana-assange-a-jest-zle-60-lekarzy-stwierdza-ze.html',
+      urlToImage:
+        'https://bi.im-g.pl/im/f3/44/18/z25445619IER,Julian-Assange.jpg',
+      publishedAt: '2019-11-25T08:24:00Z',
+      content:
+        '60 lekarzy zaapelowao o przeniesienie zaoyciela Wikileaks z wizienia Belmarsh w poudniowo-wschodniej czci Londynu do uniwersyteckiego szpitala. Oparli oni swoj ocen na podstawie "wstrzsajcych relacji naocznych wiadków" oraz raportu specjalnego sprawozdawcy ON… [+1788 chars]'
+    },
+    {
+      source: {id: null, name: 'Tvn24.pl'},
+      author: 'TVN24',
+      title:
+        'Rumunia. Statek z tysiącami owiec przewrócił się na Morzu Czarnym - TVN24',
+      description:
+        'Statek, którym transportowano ponad 14 tysięcy owiec, przewrócił się na bok na Morzu Czarnym u wybrzeży Rumunii. Udało się uratować wszystkich członków załogi, jednak zaledwie 32 zwierzęta. Aktywiści twierdzą, że statek był przeładowany i żądają dochodzenia w…',
+      url:
+        'https://www.tvn24.pl/wiadomosci-ze-swiata,2/rumunia-statek-z-tysiacami-owiec-przewrocil-sie-na-morzu-czarnym,988002.html',
+      urlToImage:
+        'https://r-scale-c0.dcs.redcdn.pl/scale/o2/tvn/web-content/m/p1/i/7ca57a9f85a19a6e4b9a248c1daca185/922289cf-8304-4c19-93cc-104977135b48.jpg?type=1&srcmode=4&srcx=0/1&srcy=0/1&srcw=640&srch=2000&dstw=640&dsth=2000&quality=90',
+      publishedAt: '2019-11-25T08:19:00Z',
+      content:
+        'Statek, którym transportowano ponad 14 tysicy owiec, przewróci si na bok na Morzu Czarnym u wybrzey Rumunii. Udao si uratowa wszystkich czonków zaogi, jednak zaledwie 32 zwierzta. Aktywici twierdz, e statek by przeadowany i daj dochodzenia w tej sprawie.\r\nczy… [+1480 chars]'
+    },
+    {
+      source: {id: null, name: 'Pclab.pl'},
+      author: 'Mateusz Brzostek',
+      title:
+        'Intel Core i9-10980XE (Cascade Lake X) – 18 rdzeni po raz trzeci - PCLab.pl',
+      description:
+        'Intel nie był w tej sytuacji od lat: najwyższy model z najnowszej generacji najwydajniejszych procesorów pojawia się w sprzedaży za jedyne 1000 dolarów. Choć poprzednie 18-rdzeniowe procesory kosztowały dwa razy więcej w chwili wprowadzenia na rynek, dziś cię…',
+      url: 'https://pclab.pl/art82514.html',
+      urlToImage:
+        'https://pclab.pl/zdjecia/artykuly/mbrzostek/2019/csl_x/cslx_360.jpg',
+      publishedAt: '2019-11-25T08:01:00Z',
+      content:
+        'Intel nie by w tej sytuacji od lat: najwyszy model z najnowszej generacji najwydajniejszych procesorów pojawia si w sprzeday za jedyne 1000 dolarów. Cho poprzednie 18-rdzeniowe procesory kosztoway dwa razy wicej w chwili wprowadzenia na rynek, dzi ciko byoby … [+6852 chars]'
+    },
+    {
+      source: {id: null, name: 'Interia.pl'},
       author: '',
       title:
-        'Миллер обсудил с представителем Германии пакетную сделку с Киевом по газу - РИА Новости',
-      description:
-        'Глава "Газпрома" Алексей Миллер обсудил с уполномоченным правительства Германии по транзиту газа через Украину Георгом Графом Вальдерзее взаимодействие... РИА Новости, 06.11.2019',
-      url: 'https://ria.ru/20191106/1560634606.html',
-      urlToImage:
-        'https://cdn22.img.ria.ru/images/sharing/article/1560634606.jpg?15553919911573043146',
-      publishedAt: '2019-11-06T11:12:57Z',
-      content:
-        'https://ria.ru/20191106/1560634606.html\r\nhttps://cdn25.img.ria.ru/images/155539/19/1555391994_0:288:3072:2016_1036x0_80_0_0_3cd1f9f1c4fa8221a03e7f4c12c09e11.jpg.webp\r\nhttps://cdn22.img.ria.ru/i/export/ria/logo.png\r\nhttps://cdn22.img.ria.ru/i/export/ria/logo.p… [+31 chars]'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Iz.ru'
-      },
-      author: 'Светлана Храмова',
-      title:
-        'Путин рассказал о не имеющем аналогов в мире российском оружии - Известия',
-      description:
-        'Президент России Владимир Путин рассказал, что страна обладает оружием, которое не имеет аналогов в мире, при этом не станет никому им угрожать. Об этом он сказал в среду, 6 ноября, на встрече с высшими офицерами и прокурорами по случаю их назначения на вышес…',
+        'Słabsza produkcja, nastroje i rynek pracy. Czy nadchodzi spowolnienie? - Interia',
+      description: 'Kliknij i zobacz wiecej.',
       url:
-        'https://iz.ru/940245/2019-11-06/putin-rasskazal-o-ne-imeiushchem-analogov-v-mire-rossiiskom-oruzhii',
+        'http://biznes.interia.pl/makroekonomia/news/slabsza-produkcja-nastroje-i-rynek-pracy-czy-nadchodzi,2636540,2156',
       urlToImage:
-        'http://cdn.iz.ru/sites/default/files/styles/900x506/public/news-2019-11/TASS_35653200_0.jpg?itok=7xr4apBo',
-      publishedAt: '2019-11-06T11:03:18Z',
+        '//img.interia.pl/biznes/nimg/r/g/Polska_gospodarka_hamuje_7143708.jpg',
+      publishedAt: '2019-11-25T07:51:05Z',
       content:
-        ', , , . , 6 , () .\r\n , , , , . , « , - ».\r\n«, , », « ».\r\n , , .\r\n12 , « ». , , « , ».\r\n27 , , «», «» «», «». , «, , , ».'
+        'Padziernik by trzecim miesicem z rzdu i ju pitym w tym roku, w którym zatrudnienie w przedsibiorstwach (tych, w których pracuje co najmniej 10 osób) spadao. cznie w sierpniu, wrzeniu i padzierniku zmalao o 14 tys. osób. Firmy mog ogranicza zatrudnienie, kiedy… [+4976 chars]'
     },
     {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
+      source: {id: null, name: 'Wiadomosci.wp.pl'},
+      author: 'oprac. Katarzyna Bogdańska',
       title:
-        'Le Parisien сообщила о госпитализации актрисы Катрин Денев - РБК Недвижимость',
+        'Jacek Jaśkowiak tłumaczy swój start w prawyborach. "Nie kłamałem" - Wirtualna Polska',
       description:
-        'Французскую актрису Катрин Денев госпитализировали в Париже в ночь на 6 ноября, сообщила Le Parisien. По информации газеты, 76-летнюю актрису доставили в городскую больницу в тяжелом состоянии . ...',
-      url: 'https://www.rbc.ru/rbcfreenews/5dc2a2a59a79473cd9d1c36f',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/1/08/755730376164081.jpg',
-      publishedAt: '2019-11-06T10:53:00Z',
-      content:
-        '6 , Le Parisien.\r\n , 76- « ». , « ».\r\n « », 1964 . - «». 1981 Souviens-toi de m’oublier. «» («»)  — ,  (« »).\r\n 2002 «8 », « » . «», 2020 .'
-    },
-    {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
-      title:
-        'Иран начал закачку газа в центрифуги на ядерном объекте в Фордо - РБК',
-      description:
-        'Иран 6 ноября доставил цистерну с 2 т фторида урана (UF-6) в загрузочный цех ядерных установок объекта в Фордо для закачки газа в свои центрифужные машины. Об этом сообщает Fars News. Как передает ...',
-      url: 'https://www.rbc.ru/rbcfreenews/5dc2a3739a79473c79c891ec',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/4/77/755730374050774.jpg',
-      publishedAt: '2019-11-06T10:50:00Z',
-      content: '4   30 IR-6, . 490   2660 .   , .'
-    },
-    {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
-      title:
-        'Отец срочника ответил на слова сына о причинах расстрела сослуживцев - РБК',
-      description:
-        'Расстрелявший сослуживцев в Забайкалье срочник Рамиль Шамсутдинов намекал, что ему угрожали изнасилованием, но не говорил об этом прямо, заявил РБК его отец Салим. Многих, говорит, молодых там уже ...',
-      url: 'https://www.rbc.ru/rbcfreenews/5dc2a2cd9a79473cd9d1c371',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/0/29/755730371269290.jpg',
-      publishedAt: '2019-11-06T10:45:00Z',
-      content:
-        ', , , .\r\n«, , . , , , —  , . . , - . , , », — -.\r\n , , ,  , , , . « , . , , . , . , , », — .\r\n 6 Telegram- Baza , , , . « . , , . , , , », — Baza .'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Vc.ru'
-      },
-      author: 'Альберт Хабибрахимов',
-      title:
-        '«Яндекс» начал продавать свои колонки бизнесу: первыми их установил отель Crowne Plaza Moscow в своих номерах — Техника на vc.ru - vc.ru',
-      description:
-        'Так компания сможет увеличить количество пользователей «Станции» — до сих пор она продавалась только в рознице.',
+        'Jacek Jaśkowiak przyznał, że decyzję o wzięciu udziału w prawyborach Platformy Obywatelskiej podjął dzień przed złożeniem swojego zgłoszenia. Jak przekonywał, ma swój pomysł na kampanię wyborczą.',
       url:
-        'https://vc.ru/tech/91311-yandeks-nachal-prodavat-svoi-kolonki-biznesu-pervymi-ih-ustanovil-otel-crowne-plaza-moscow-v-svoih-nomerah',
-      urlToImage: 'https://vc.ru/cover/fb/c/91311/1573037873/cover.jpg',
-      publishedAt: '2019-11-06T10:01:20Z',
+        'https://wiadomosci.wp.pl/jacek-jaskowiak-tlumaczy-swoj-start-w-prawyborach-nie-klamalem-6449834120009857a',
+      urlToImage: 'https://d.wpimg.pl/1740816709-1818485355/jaskowiak.jpg',
+      publishedAt: '2019-11-25T07:46:00Z',
       content:
-        '«» .\r\n«» Crowne Plaza Moscow World Trade Centre. «.» «», vc.ru -.\r\n «» 15 « », 11 . , , Crowne Plaza Moscow .\r\n«.» . : , , . «» , .\r\n . «». , .\r\n. , «», . «» .\r\n , «», . . , . \r\n , , .\r\n, «.» b2b. «» -. «» , 2019 , « » .\r\n«.» Crowne Plaza Moscow - «» . , , , … [+177 chars]'
+        'Jacek Jakowiak przyzna, e decyzj o wziciu udziau w prawyborach Platformy Obywatelskiej podj dzie przed zoeniem swojego zgoszenia. Jak przekonywa, ma swój pomys na kampani wyborcz.\r\nJacek Jakowiak startuje w prawyborach PO (Forum)- Dzie przed zoeniem swojego z… [+1357 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Motor.ru'
-      },
-      author: 'Анастасия Дубина',
-      title: 'Вот так будет выглядеть салон новой Skoda Octavia - Motor.ru',
-      description:
-        'Штаб-квартира марки Skoda опубликовала первые эскизы интерьера Octavia нового поколения. Судя по изображению, это будет чуть ли не самый революционный апдейт салона за всю историю модели.',
-      url: 'https://motor.ru/news/new-octavia-interior-06-11-2019.htm',
-      urlToImage:
-        'https://motor.ru/thumb/908x475/filters:quality(75)/imgs/2019/11/06/09/3643488/235fed78f899a946d86f1247d3f3e0774ce21567.jpg',
-      publishedAt: '2019-11-06T09:45:55Z',
-      content: '. . \r\n , . . , Octavia - Climatronic.'
-    },
-    {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
-      title: 'Лавров не поддержал лишение аккредитации Deutsche Welle - РБК',
-      description:
-        'МИД России не поддерживает предложение лишить немецкую телерадиокомпанию аккредитации, заявил глава ведомства Сергей Лавров, передает корреспондент РБК. МИД не поддерживает идеи, которые ...',
-      url: 'https://www.rbc.ru/rbcfreenews/5dc2878a9a79472cd92200fd',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/2/10/755730314362102.jpg',
-      publishedAt: '2019-11-06T09:10:00Z',
-      content:
-        ', , .\r\n« , », — . « . », — . , Deutsche Welle .\r\n, DW , . « , . DW   . , DW , », — Deutsche Welle .\r\n27 Deutsche Welle . , DW , Twitter « ». , 3 . , . , DW  — , . Deutsche Welle , , « ».'
-    },
-    {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
-      author: null,
+      source: {id: null, name: 'Gazeta.pl'},
+      author: 'IAR, kn',
       title:
-        'Полицейские установили возможного убийцу главы центра «Э» Ингушетии - РБК',
+        'Martwe morświny w Bałtyku. Nieoficjalnie: zabiła je niemiecka marynarka. "Całkowity upadek" - Gazeta.pl',
       description:
-        'Правоохранительные органы установили личность одного из подозреваемых в убийстве начальника Центра противодействия экстремизму МВД Ингушетии Ибрагима Эльджаркиева и его брата',
-      url: 'https://www.rbc.ru/society/06/11/2019/5dc28b9e9a79472e821dc85d',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/1/14/755730326339141.jpg',
-      publishedAt: '2019-11-06T09:08:00Z',
-      content:
-        ', () , .\r\n« , , , 42- , 5 , 18 », — . , .\r\n , .\r\n - 2 . . 2 . 105 ( ).\r\n3 , , , . 5 - , , « ».'
-    },
-    {
-      source: {
-        id: null,
-        name: '3dnews.ru'
-      },
-      author: null,
-      title:
-        'Вейпинг по-прежнему популярен у американских старшеклассников - 3DNews',
-      description:
-        'Согласно опубликованному во вторник опросу National Youth Tobacco Survey (NYTS), каждый четвёртый ученик старших классов и каждый десятый ученик средних школ в США пробовал электронные средства курения (вейп) в течение последних 30 дней.',
-      url: 'https://3dnews.ru/997049',
-      urlToImage:
-        'https://3dnews.ru/assets/external/illustrations/2019/11/06/997049/sm.944071892.jpg.0.750.jpg',
-      publishedAt: '2019-11-06T09:07:03Z',
-      content:
-        'National Youth Tobacco Survey (NYTS), () 30 .\r\nDiedra Laird/Charlotte Observer/Tribune News Service / Getty Images\r\n, , , .\r\n , Journal of the American Medical Association, , Juul .\r\n, , , . , , , .\r\n , , .'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Nplus1.ru'
-      },
-      author: 'Александр Войтюк',
-      title:
-        '«Вояджер-2» рассказал о свойствах местной межзвездной среды - N+1',
-      description:
-        '«Вояджер-2» рассказал о свойствах местной межзвездной среды',
-      url: 'https://nplus1.ru/news/2019/11/06/Voyager2-interstellar',
-      urlToImage:
-        'https://nplus1.ru/images/2019/11/06/f75a7c2e69126c34dd3b59b9516d2945.jpg',
-      publishedAt: '2019-11-06T09:02:00Z',
-      content:
-        'NASA/JPL-Caltech\r\n«-2» , . , , , . (1,2,3,4,5) Nature.\r\n «» 1970- , - , . , , 42 . «-2» 122 . «-1»,  147,5 , . \r\n25 2012 «-1», 121,6 , , ( , ), (Very Local Interstellar Medium, VLISM). , , . , , . , , «-1» «»,   , .\r\n  «-2» , , , , CRS (Cosmic Ray Subsystem) … [+190 chars]'
-    },
-    {
-      source: {
-        id: null,
-        name: 'Sport-express.ru'
-      },
-      author: null,
-      title:
-        '«Локомотив» — «Ювентус», 6 ноября 2019, Криштиану Роналду в России, какой он в жизни - Спорт-Экспресс',
-      description:
-        'Нападающий «Ювентуса» Криштиану Роналду впервые с лета 2018 года прилетел в Россию, где сыграет с «Локомотивом» в Лиге чемпионов.',
+        'Niemieckie organizacje ekologiczne twierdzą, że w czasie ćwiczeń marynarki wojennej na Bałtyku Zachodnim zabito 18 morświnów. Zwierzęta miały zginąć podczas detonacji min. Są pod ochroną. Lokalne władze domagają się reakcji na poziomie federalnym.',
       url:
-        'https://www.sport-express.ru/football/champions-league/reviews/lokomotiv-yuventus-6-noyabrya-2019-krishtianu-ronaldu-v-rossii-kakoy-on-v-zhizni-1607295/',
+        'http://next.gazeta.pl/next/7,172392,25444055,niemcy-marynarka-wojenna-zabila-18-morswinow-na-baltyku-zwierzeta.html',
       urlToImage:
-        'https://ss.sport-express.ru/userfiles/materials/149/1495545/large.jpg',
-      publishedAt: '2019-11-06T09:00:00Z',
+        'https://bi.im-g.pl/im/f0/44/18/z25445616IER,Cwiczenia-na-morzu.jpg',
+      publishedAt: '2019-11-25T07:40:03Z',
       content:
-        '«»   2018  , «»   . «»  ,      , ,    .\r\n .4- . D«»  «». 6 . 20.55 ()\r\n , .   -2018\r\n    ,   ,   .   . ,    . ,   . . ,    3-5 . , .   , ,    .   , , ,    .       ,     .\r\n   ,   .  , , ,    . ,     .    ,    ,      .        .    .\r\n    , ,  . ,   . ,    ,  .… [+286 chars]'
+        'Na pocztku wrzenia marynarka wojenna prowadzia wiczenia w cieninie pomidzy niemieck wysp Fehrman a dusk wysp Lolland. W ramach wicze wysadzono 39 brytyjskich min z okresu pierwszej wojny wiatowej. Miao si to przyczyni do mierci morwinów - ssaków morskich, któ… [+1320 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Igromania.ru'
-      },
+      source: {id: null, name: 'Sportowefakty.wp.pl'},
+      author: 'Wirtualna Polska Media',
+      title:
+        'Skoki narciarskie. Puchar Świata w Wiśle. Kamil Stoch spotkał Piotra Żyłę po jego upadku. "Grał w Pokemony" - WP SportoweFakty',
+      description:
+        'Gdy Kamil Stoch wpadł na Piotra Żyłę między pierwszą a drugą serią konkursu PŚ w Wiśle, ten grał na komórce w Pokemon GO. To zasugerowało utytułowanemu skoczkowi, że z jego kolegą z kadry wszystko w porządku.',
+      url:
+        'https://sportowefakty.wp.pl/skoki-narciarskie/856137/skoki-narciarskie-puchar-swiata-w-wisle-kamil-stoch-spotkal-piotra-zyle-po-jego-',
+      urlToImage:
+        'https://sportowefakty.wp.pl/storage/featured_original/5dda7c01487d87_57953993.jpg',
+      publishedAt: '2019-11-25T07:35:00Z',
+      content:
+        'Gdy Kamil Stoch wpad na Piotra y midzy pierwsz a drug seri konkursu P w Wile, ten gra na komórce w Pokemon GO. To zasugerowao utytuowanemu skoczkowi, e z jego koleg z kadry wszystko w porzdku.\r\nGrzegorz Wojnarowski25 Listopada 2019, 08:35\r\nW niedzielnych zawo… [+1609 chars]'
+    },
+    {
+      source: {id: null, name: 'Sport.pl'},
+      author: 'MLZ',
+      title:
+        'Doncić lepszy od Hardena! Młoda gwiazda NBA znów prowadzi Mavericks do zwycięstwa - Sport.pl',
+      description:
+        'Luka Donicić nie zamierza się zatrzymywać! Słoweniec po raz kolejny poprowadził Dallas Mavericks do zwycięstwa - tym razem z Houston Rockets. 20-latek zapisał na swoim koncie 41 punktów i był najlepiej punktującym zawodnikiem spotkania dwóch zespołów ze stanu…',
+      url:
+        'http://www.sport.pl/koszykowka/7,65035,25445518,doncic-lepszy-od-hardena-mloda-gwiazda-nba-znow-poprowadzila.html',
+      urlToImage:
+        'https://bi.im-g.pl/im/95/44/18/z25445525IER,Luka-Doncic-poprowadzil-Dallas-Mavericks-do-zwycie.jpg',
+      publishedAt: '2019-11-25T07:25:00Z',
+      content:
+        'Niedzielne starcie midzy dwoma zespoami z Teksasu byo zapowiadane jako pojedynek dwóch gwiazd caej ligi - Jamesa Hardena i Luki Doncicia. Jak si okazao modo wzia gór nad dowiadczeniem - prowadzeni przez 20-letniego Soweca Dallas Mavericks wygrali na wyjedzie … [+1203 chars]'
+    },
+    {
+      source: {id: null, name: 'Gazeta.pl'},
+      author: 'NPK',
+      title:
+        'Świnoujście. Ruszyła akcja wydobycia 900-kilogramowej miny. Utrudnienia w ruchu kołowym i morskim - Wiadomosci Gazeta.pl',
+      description:
+        'W poniedziałek po godzinie siódmej rano rozpoczęła się akcja wydobycia niewybuchu znalezionego na torze wodnym Szczecin-Świnoujście. Próbę podjęcia 900-kilogramowej miny przeprowadzi 8. Flotylla Obrony Wybrzeża.',
+      url:
+        'http://wiadomosci.gazeta.pl/wiadomosci/7,114883,25445513,swinoujscie-ruszyla-akcja-wydobycia-900-kilogramowej-miny.html',
+      urlToImage:
+        'https://bi.im-g.pl/im/90/44/18/z25445520IER,Port-w-Swinoujsciu.jpg',
+      publishedAt: '2019-11-25T07:13:00Z',
+      content:
+        'Jak podaje "Wyborcza" proces wydobycia rozpoczął się w poniedziałek 25 listopada po godzinie siódmej rano. Mina z czasów II wojny światowej zlokalizowana jest w Kanale Piastowskim czyli części toru wodnego Szczecin-Świnoujście.\r\nZnajdujący się na dnie niewybu… [+1275 chars]'
+    },
+    {
+      source: {id: null, name: 'Gry-online.pl'},
+      author: 'Froozyy',
+      title:
+        'CD Projekt RED rozważa monetyzację trybu multiplayer w Cyberpunku 2077 - gry-online.pl',
+      description:
+        'Podczas ostatniej telekonferencji finansowej firmy CD Projekt zdradzono, że tryb multiplayer w Cyberpunku 2077 jest już na wczesnym etapie tworzenia. Dowiedzieliśmy się również, że rozważane jest wdrożenie do niego przemyślanego systemu mikropłatności.',
+      url:
+        'https://www.gry-online.pl/newsroom/cyberpunk-2077-tryb-multiplayer-jest-na-wczesnym-etapie-tworzenia/z31d09e',
+      urlToImage: 'https://www.gry-online.pl/i/w/h3/720_312300596.jpg',
+      publishedAt: '2019-11-25T06:54:13Z',
+      content:
+        'Wiadomogrywczoraj, 13:11\r\nPodczas ostatniej telekonferencji finansowej firmy CD Projekt zdradzono, e tryb multiplayer w Cyberpunku 2077 jest ju na wczesnym etapie tworzenia. Dowiedzielimy si równie, e rozwaane jest wdroenie do niego przemylanego systemu mikro… [+2841 chars]'
+    },
+    {
+      source: {id: null, name: 'Dziennik.pl'},
       author: null,
       title:
-        'Первый мод для PC-версии Red Dead Redemption 2 превратит Артура Моргана в Джокера - Игромания',
+        'Polowanie na miliardy. Tak rządzący chcą załatać dziurę w państwowych finansach - Kobieta Dziennik.pl',
       description:
-        'Команда моддеров также намерена заменить главного героя игры на Терминатора.',
+        'Dziurę w państwowych finansach, powstałą po tym, jak nie udało się zlikwidować 30-krotności przy wpłatach na ZUS, załatać mogą – nawet z nadwyżką – uszczelnienie obrotu importowanymi śmieciami czy większe od zakładanych wpływy ze sprzedaży częstotliwości dla …',
       url:
-        'https://www.igromania.ru/news/87876/Pervyy_mod_dlya_PC-versii_Red_Dead_Redemption_2_prevratit_Artura_Morgana_v_Dzhokera.html',
+        'https://gospodarka.dziennik.pl/emerytury-i-ofe/artykuly/613651,budzet-pis-porozumienie-30-krotnosc-zus.html',
       urlToImage:
-        'https://cdn.igromania.ru/mnt/news/e/b/9/e/6/9/87876/e31a7532ccab189f_1200xH.jpg',
-      publishedAt: '2019-11-06T08:46:00Z',
+        'https://s6.dziennik.pl/pliki/12470000/12470775-pieniadze-zloty-3-643-385.jpg',
+      publishedAt: '2019-11-25T06:38:00Z',
       content:
-        '06.11.2019 11:46  |  \r\nRed Dead Redemption 2Rockstar Games LauncherEpic Games Store , 5 , RedDeadModders PC- .\r\n Arthur Morgan as The Joker . , .\r\n, Red Dead Redemption 2 . , Rockstar Games Launcher. , .'
+        'Midzy innymi takie propozycje przedstawiaj politycy Porozumienia Jarosawa Gowina w ramach rozmów koalicyjnych z Prawem i Sprawiedliwoci. Takich rozwiza nie wykluczaj take osoby z rzdu, z którymi rozmawialimy. W KPRM i resorcie finansów trwa przegld scenariusz… [+4190 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Www.mk.ru'
-      },
+      source: {id: null, name: 'Natemat.pl'},
+      author: 'Łukasz Grzegorczyk',
+      title:
+        'Wiceminister o wyroku sądu w Olsztynie. Mówi o drodze do anarchii - naTemat',
+      description:
+        'Listy poparcia kandydatów do Krajowej Rady Sądownictwa miały być ujawnione. Z wypowiedzi wiceministra sprawiedliwości Michała Wójcika wynika jednak, że nie ma na to szans. Ostatni wyrok sądu w Olsztynie w tej sprawie polityk nazwał drogą do anarchii.',
+      url:
+        'https://natemat.pl/291675,wiceminister-o-wyroku-sadu-w-olsztynie-mowi-o-drodze-do-anarchii',
+      urlToImage:
+        'https://cdn.natemat.pl/a6f516703431a1d6f1f85489323572e4,1024,0,0,0.jpg',
+      publishedAt: '2019-11-25T06:22:00Z',
+      content: null
+    },
+    {
+      source: {id: null, name: 'Boop.pl'},
       author: null,
       title:
-        'Отец рядового Шамсутдинова назвал причину массового расстрела - Московский Комсомолец',
+        'Aphelios ma być najtrudniejszą postacią w LoLu. Riot spodziewa się niskiego winratio - BOOP.pl',
       description:
-        'Отец рядового срочной службы Рамиля Шамсутдинова, расстрелявшего восемь военнослужащих в воинской части в Забайкалье, рассказал о встрече с сыном в СИЗО',
+        'Nowy bohater w League of Legends, o którym więcej dowiemy się zapewne już dzisiaj, może być najtrudniejszy w całej Lidze. Aphelios póki co jest niezłą zagadką. Od strony gameplay’u znamy jedynie jego wygląd. Nieco więcej ujawnia sam Riot, który jak się dowied…',
       url:
-        'https://www.mk.ru/incident/2019/11/06/otec-ryadovogo-shamsutdinova-nazval-prichinu-massovogo-rasstrela.html',
-      urlToImage:
-        'https://static.mk.ru/upload/entities/2019/11/06/11/articles/facebookPicture/ad/3d/ce/42/80f4351a2ad73f8412c2ca12d3f41302.jpg',
-      publishedAt: '2019-11-06T08:41:16Z',
+        'https://boop.pl/league-of-legends/aphelios-ma-byc-najtrudniejsza-postacia-w-lolu-riot-spodziewa-sie-niskiego-winratio',
+      urlToImage: 'https://cdn.boop.pl/uploads/2019/11/aa-1.jpg',
+      publishedAt: '2019-11-25T06:13:23Z',
       content:
-        ', (). 77-45245 - " " ". : 125993, . , . 1905 , . 7, . 1. : +7(495)609-44-44, +7(495)609-44-33 , e-mail info@mk.ru. - .. .   , www.mk.ru, \r\n . , www.mk.ru \r\n , \r\n . , \r\n mk.ru, .\r\n : «- »,\r\n « », « », « », « »,\r\n « », -, , « . », « », « »,\r\n «», «».: « », « »,… [+31 chars]'
+        'Nowy bohater w League of Legends, o którym wicej dowiemy si zapewne ju dzisiaj, moe by najtrudniejszy w caej Lidze.\r\nAphelios póki co jest niez zagadk. Od strony gameplayu znamy jedynie jego wygld. Nieco wicej ujawnia sam Riot, który jak si dowiedzielimy, prz… [+291 chars]'
     },
     {
-      source: {
-        id: 'rbc',
-        name: 'RBC'
-      },
+      source: {id: null, name: 'Interia.pl'},
       author: null,
-      title: 'Wall Street Journal сообщила о планах Xerox купить HP - РБК',
-      description:
-        'Рыночная стоимость HP составляет около $27 млрд, что в три раза больше, чем у покупателя. Xerox при этом хочет предложить за HP цену выше рыночной',
+      title: 'Podkarpacie: Akcja CBA w Ustrzykach Dolnych - Interia',
+      description: 'Kliknij i zobacz więcej.',
       url:
-        'https://www.rbc.ru/technology_and_media/06/11/2019/5dc27e8c9a794728e85d6260',
-      urlToImage:
-        'https://s0.rbk.ru/v6_top_pics/media/img/9/77/755730293227779.jpg',
-      publishedAt: '2019-11-06T08:34:00Z',
+        'https://fakty.interia.pl/podkarpackie/news-podkarpacie-akcja-cba-w-ustrzykach-dolnych,nId,3353850',
+      urlToImage: 'https://i.iplsc.com/-/00098MVI9HO13BCT-C411.jpg',
+      publishedAt: '2019-11-25T06:13:00Z',
       content:
-        'Xerox Holdings HP Inc., $27  — Xerox. The Wall Street Journal (WSJ) .\r\n Xerox , 5 . Xerox HP, , , . .\r\n WSJ, Xerox  $2,3 Fujifilm Holdings Corp. Fujifilm Xerox 25% Fuji Xerox 100% .\r\n Xerox, ( ), , 10- . HP, - ( ), , . , 2018 , WSJ, 58 .\r\n , , , $2 . , WSJ, X… [+10 chars]'
+        'Centralne Biuro Antykorupcyjne prowadzi kontrol w Urzdzie Miejskim w Ustrzykach Dolnych (Podkarpackie). Kontrola dotyczy udzielania zamówie publicznych przez gmin w latach 2017-19.\r\nZdjcieCBA, zdj. ilustracyjne/Stanisaw Kowalczuk /East News\r\nSekretarz gminy U… [+1025 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Mail.ru'
-      },
-      author: 'Виталий Лапиков',
+      source: {id: null, name: 'Rmf24.pl'},
+      author: null,
       title:
-        'Почему прямоугольные часы лучше круглых — объясняет Xiaomi - Hi-Tech Mail.ru',
-      description: 'Дело не только в желании производителей выделиться.',
-      url: 'https://hi-tech.mail.ru/news/mi_watch_forma/',
-      urlToImage:
-        'https://htstatic.imgsmail.ru/pic_share/7cee23dbe59c446ec6d07f51eab50358/1675195/c/46423?time=1573042548',
-      publishedAt: '2019-11-06T08:30:00Z',
+        'Spektakularne zwycięstwo obozu demokratycznego w wyborach w Hongkongu - RMF 24',
+      description:
+        '300 na 492 mandaty zdobyli kandydaci obozu demokratycznego w wyborach do rad dzielnicowych, jakie przeprowadzono w niedzielę w Hongkongu – podaje Reuters. Telewizja RTHK oceniła, że zwycięstwo pro-demokratycznych kandydatów jest jeszcze wyższe. Według stacji,…',
+      url:
+        'https://www.rmf24.pl/fakty/swiat/news-spektakularne-zwyciestwo-obozu-demokratycznego-w-wyborach-w-,nId,3353843',
+      urlToImage: 'https://i.iplsc.com/-/0009ESWGF0RTVWXX-C411.jpg',
+      publishedAt: '2019-11-25T05:46:00Z',
       content:
-        'Mi Mi Watch Xiaomi , , . Gizmochina.\r\n-, , . .\r\n-, , Xiaomi, . , .\r\n-, Apple Watch Xiaomi Mi Watch . , , , . Xiaomi, .\r\nXiaomi Mi Watch 5 . , , , . 10 .\r\n , . . MIUI Wear OS Google. 36 .\r\n Mi Watch 1299 , 12 . Apple Watch Series 5 2 . Mi Watch  1999 , 18 .'
+        '300 na 492 mandaty zdobyli kandydaci obozu demokratycznego w wyborach do rad dzielnicowych, jakie przeprowadzono w niedziel w Hongkongu podaje Reuters. Telewizja RTHK ocenia, e zwycistwo pro-demokratycznych kandydatów jest jeszcze wysze. Wedug stacji, mieli o… [+2272 chars]'
     },
     {
-      source: {
-        id: null,
-        name: 'Vedomosti.ru'
-      },
-      author: 'Кирилл Буланов',
-      title:
-        'Медведев уволил куратора мусорной реформы в Минприроды - Ведомости',
-      description:
-        'Владимир Логинов уходит по собственному желанию меньше чем через год после назначения',
+      source: {id: null, name: 'Interia.pl'},
+      author: '',
+      title: 'Polsko-duńska wyspa wiatrów - Interia',
+      description: 'Kliknij i zobacz wiecej.',
       url:
-        'https://www.vedomosti.ru/politics/articles/2019/11/06/815531-kuratora-musornoi',
+        'http://biznes.interia.pl/wiadomosci/news/polsko-dunska-wyspa-wiatrow,2636536,4199',
       urlToImage:
-        'https://sharing.vedomosti.ru/1573041485/vedomosti.ru/politics/articles/2019/11/06/815531-kuratora-musornoi.jpg',
-      publishedAt: '2019-11-06T08:25:21Z',
+        '//img.interia.pl/biznes/nimg/s/y/Nasz_kraj_zbuduje_Dania_7143703.jpg',
+      publishedAt: '2019-11-25T05:45:00Z',
       content:
-        ', . , .\r\n«» - . « - », . , . « , , . », .\r\n2018 . , : .\r\n54 . 1980- . , 1997 . . 19972000 . « » , 20002002 . . 2002 2009 . «». 2009 ., , .\r\n, , , , .\r\n70 , , 57%, , , . 2019 . , , , , ( , - ).\r\n. . 90% 50 ., « » () . , 2023 . , , 2023 . . , , , . 85 32. .\r\n, … [+19 chars]'
+        '"Puls Biznesu" podkrela, e od wyborów parlamentarnych z 2015 r. Dania zajmuje w polskiej polityce zagranicznej wane miejsce - jest partnerem we flagowej inwestycji naszego rzdu, czyli w Baltic Pipe i projekcie gazocigu czcego Polsk z Norwegia przez Dani.\r\nJes… [+635 chars]'
+    },
+    {
+      source: {id: null, name: 'Interia.pl'},
+      author: null,
+      title:
+        'Sondaż prezydencki dla "DGP" i RMF FM: Kandydaci KO przegrywają z Andrzejem Dudą - Interia',
+      description: 'Kliknij i zobacz więcej.',
+      url:
+        'https://fakty.interia.pl/polska/news-sondaz-prezydencki-dla-dgp-i-rmf-fm-kandydaci-ko-przegrywaja,nId,3353834',
+      urlToImage: 'https://i.iplsc.com/-/0009ESW4WHRDMXUG-C411.jpg',
+      publishedAt: '2019-11-25T05:10:00Z',
+      content:
+        'aden z kandydatów Koalicji Obywatelskiej nie ma wikszych szans wygra z Andrzejem Dud w drugiej turze wyborów prezydenckich - taki wniosek pynie z prezydenckiego sondau Instytutu Bada Rynkowych i Spoecznych IBRiS dla "Dziennika Gazety Prawnej" i RMF FM. Jak wy… [+2448 chars]'
+    },
+    {
+      source: {id: null, name: 'Wiadomosci.wp.pl'},
+      author: 'oprac. Violetta Baran',
+      title:
+        'USA szykują sankcje wobec Nord Stream 2. "Rosjanie będą musieli szukać innej drogi" - Wirtualna Polska',
+      description:
+        'Jim Risch, przewodniczący komisji spraw zagranicznych Senatu USA, poinformował, że do projektu amerykańskiej ustawy o budżecie resortu obrony na rok finansowy 2020  wpisano sankcje na firmy uczestniczące',
+      url:
+        'https://wiadomosci.wp.pl/usa-szykuja-sankcje-wobec-nord-stream-2-rosjanie-beda-musieli-szukac-innej-drogi-6449678657701505a',
+      urlToImage: 'https://d.wpimg.pl/1440500930-1769511311/nord-stream-2.jpg',
+      publishedAt: '2019-11-24T20:54:00Z',
+      content:
+        'Jim Risch, przewodniczcy komisji spraw zagranicznych Senatu USA, poinformowa, e do projektu amerykaskiej ustawy o budecie resortu obrony na rok finansowy 2020 wpisano sankcje na firmy uczestniczce w budowie Nord Stream 2. - Myl, e Rosjanie bd musieli szuka in… [+1520 chars]'
+    },
+    {
+      source: {id: null, name: 'Onet.pl'},
+      author: null,
+      title:
+        'Tenis: rekord na meczu Roger Federer - Alexander Zverev - Onet.pl',
+      description:
+        '<strong>Spotkanie pokazowe między Szwajcarem Rogerem Federerem i Niemcem Alexandrem Zverevem w Meksyku obejrzała rekordowa liczba widzów w przypadku meczu tenisowego. Na trybunach zasiadło 42517 widzów.</strong>',
+      url: 'https://www.onet.pl',
+      urlToImage:
+        'https://ocdn.eu/images/pulscms/OWU7MDA_/20ec3038d7c7d1637e04da3395de954d.png',
+      publishedAt: '2019-11-24T17:27:57Z',
+      content:
+        'Spotkanie pokazowe midzy Szwajcarem Rogerem Federerem i Niemcem Alexandrem Zverevem w Meksyku obejrzaa rekordowa liczba widzów w przypadku meczu tenisowego. Na trybunach zasiado 42517 widzów.\r\nPojedynek odby si na najwikszej na wiecie arenie walk byków, a Fed… [+290 chars]'
+    },
+    {
+      source: {id: null, name: 'Urania.edu.pl'},
+      author: null,
+      title: 'Tytan zmapowany niczym Ziemia - Urania - Postępy Astronomii',
+      description:
+        'Pod wieloma względami najbardziej podobnym do Ziemi globem w całym Układzie Słonecznym jest największy księżyc Saturna, Tytan. Astronomowie z NASA JPL i Uniwersytetu Stanowej w Arizonue wykorzystali właśnie dane zbierane przez wiele lat przez sondę Cassini do…',
+      url: 'https://www.urania.edu.pl/wiadomosci/tytan-zmapowany-niczym-ziemia',
+      urlToImage:
+        'https://www.urania.edu.pl/sites/default/files/2019-11/assets.newatlas.com_.jpeg',
+      publishedAt: '2019-11-24T17:03:40Z',
+      content:
+        'Pod wieloma wzgldami najbardziej podobnym do Ziemi globem w caym Ukadzie Sonecznym jest najwikszy ksiyc Saturna, Tytan. Astronomowie z NASA JPL i Uniwersytetu Stanowej w Arizonie wykorzystali wanie dane zbierane przez wiele lat przez sond Cassini do wykonania… [+3153 chars]'
+    },
+    {
+      source: {id: null, name: 'Wyborcza.pl'},
+      author: null,
+      title:
+        'Michael Bloomberg oficjalnie ogłosił start w wyborach prezydenckich w USA. "Chcę odbudować Amerykę" - Gazeta Wyborcza',
+      description: null,
+      url:
+        'https://wyborcza.pl/7,75399,25444179,michael-bloomberg-oficjalnie-oglosil-start-w-wyborach-prezydenckich.html?disableRedirects=true',
+      urlToImage:
+        'https://www.skijumping.pl/content/images/news/powieksz/murankaklemens_2019-07-09_22-40-34.jpg',
+      publishedAt: '2019-11-24T16:11:32Z',
+      content: null
+    },
+    {
+      source: {id: null, name: 'Skijumping.pl'},
+      author: null,
+      title:
+        'Polska siódemka na Rukę, Dolezal podsumowuje weekend w Wiśle - Skijumping.pl',
+      description:
+        'Nie opadły jeszcze emocje związane z inauguracją Pucharu Świata w Wiśle, a już poznaliśmy kadrę Polski na następne zawody. Trener Michal Dolezal wytypował siedmiu zawodnik&oacute;w, kt&oacute;rzy w przyszłym tygodniu wystąpią w Ruce (HS142).',
+      url:
+        'https://www.skijumping.pl/wiadomosci/27106/polska-siodemka-na-ruke-dolezal-podsumowuje-weekend-w-wisle/',
+      urlToImage:
+        'https://www.skijumping.pl/content/images/news/powieksz/murankaklemens_2019-07-09_22-40-34.jpg',
+      publishedAt: '2019-11-24T14:24:00Z',
+      content:
+        'Szanujemy Twoje prawo do prywatnoci. Dlatego opracowalimy ten dokument, który prezentuje nasze stanowisko w sprawie gromadzenia, przetwarzania i wykorzystywania informacji o uytkownikach. Poniej przedstawiamy informacje na temat uywanych w ramach naszej witry… [+10505 chars]'
+    },
+    {
+      source: {id: null, name: 'Natemat.pl'},
+      author: 'Aleksandra Gersz',
+      title:
+        'Kim Kardashian wspomina Met Galę 2013. Wszyscy śmiali się z jej sukni - naTemat',
+      description:
+        'Minęło sześć lat, ale ona wciąż nie może o tym zapomnieć. Kim Kardashian West wyznała w "Vogue", że żarty z jej słynnej kwiecistej sukni z Met Gali, kreacji nazywanej czule "kanapą", doprowadziły ją do łez. Kim nie darował nawet nieżyjący już komik i aktor Ro…',
+      url:
+        'https://natemat.pl/291625,kim-kardashian-wspomina-met-gale-2013-wszyscy-smiali-sie-z-jej-sukni',
+      urlToImage:
+        'https://cdn.natemat.pl/c55e327212f980b48969e364f5f43869,1024,0,0,0.jpg',
+      publishedAt: '2019-11-24T13:57:00Z',
+      content: null
     }
   ]
 }

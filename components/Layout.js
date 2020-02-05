@@ -30,12 +30,17 @@ export default function Layout({
       </Head>
 
       <main>
-        {backButton && (
-          <Link href="/">
-            <a>← Back</a>
-          </Link>
-        )}
-        {title && <h1>{title}</h1>}
+        <button onClick={() => window.location.reload()}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 18 18"
+          >
+            <path d="M9 13.5c-2.49 0-4.5-2.01-4.5-4.5S6.51 4.5 9 4.5c1.24 0 2.36.52 3.17 1.33L10 8h5V3l-1.76 1.76C12.15 3.68 10.66 3 9 3 5.69 3 3.01 5.69 3.01 9S5.69 15 9 15c2.97 0 5.43-2.16 5.9-5h-1.52c-.46 2-2.24 3.5-4.38 3.5z" />
+          </svg>
+        </button>
+        <h1>Headlines 🇵🇱</h1>
         {children}
         <Footer />
       </main>
@@ -74,6 +79,18 @@ export default function Layout({
           text-decoration: none;
           transition: all 0.3s ease;
         }
+        button {
+          background: none;
+          border: none;
+          cursor: pointer;
+          position: fixed;
+          top: 0;
+          right: 0;
+          z-index: 10;
+        }
+        button svg {
+          fill: #444;
+        }
         a:hover {
           margin-left: -8px;
         }
@@ -84,6 +101,7 @@ export default function Layout({
           line-height: 56px;
           margin: 0;
           padding-top: 32px;
+          padding-bottom: 32px;
         }
         h2 {
           font-weight: 400;

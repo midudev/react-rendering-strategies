@@ -17,6 +17,7 @@ export default function CardImage({urlToImage}) {
         <div style={{backgroundImage: `url('${urlToImage}')`}} />
         <img
           className={loaded ? 'loaded' : ''}
+          loading="lazy"
           ref={imgRef}
           onLoad={() => setLoaded(true)}
           src={urlToImage}
