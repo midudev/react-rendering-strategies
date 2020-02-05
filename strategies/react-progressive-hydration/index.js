@@ -5,14 +5,14 @@ import useNearScreen from './useNearScreen'
 const EMPTY_HTML = {__html: ''}
 const isServer = typeof window === 'undefined'
 
-export default function ProgressiveHydration({children, force}) {
+export default function ProgressiveHydration({children, force = false}) {
   const ref = useRef(null)
   const isNearScreen = useNearScreen({ref})
 
   useEffect(
     function() {
       // CLIENT:
-      // If we want to force the hydration or the element is near screen
+      // If we want to force the hydration OR the element is near screen
       // then we hydrate the content to get the functionality ready
       if (force || isNearScreen) {
         ReactDOM.hydrate(children, ref.current)
