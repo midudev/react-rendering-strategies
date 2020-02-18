@@ -3,7 +3,7 @@ import Card from 'components/Card'
 import Grid from 'components/Grid'
 import Layout from 'components/Layout'
 import Head from 'next/head'
-import ProgressiveHydration from '@midudev/react-progressive-hydration'
+import ProgressiveHydration from '@midudev/react-progressive-hydration/src'
 
 export default function ProgressiveHydrationPage({articles}) {
   return (
