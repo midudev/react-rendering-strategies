@@ -1,14 +1,16 @@
 {
-  "plugins": ["@babel/plugin-syntax-dynamic-import"],
   "presets": [
     "@babel/preset-react",
     [
       "@babel/preset-env",
       {
         "bugfixes": true,
+        "exclude": ["transform-typeof-symbol"],
         "loose": true,
-        "modules": false
+        "modules": false,
+        "targets": "> 0.25%, not dead"
       }
     ]
-  ]
+  ],
+  "plugins": ["@babel/plugin-syntax-dynamic-import"]
 }
