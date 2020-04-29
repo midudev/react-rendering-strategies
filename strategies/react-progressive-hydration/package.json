@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "../../node_modules/.bin/babel src -d dist",
+    "prepare": "../../node_modules/.bin/babel src -d dist --config-file ../../babel.config.json",
     "release": "../../node_modules/.bin/np",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +25,6 @@
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "intersection-observer": "^0.7.0"
+    "intersection-observer": "0.10.0"
   }
 }

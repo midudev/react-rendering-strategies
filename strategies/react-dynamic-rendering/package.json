@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "dwp=$(pwd) && ../../node_modules/.bin/babel $dwp/ -d $dwp/dist/ --presets=@babel/react --plugins=@babel/plugin-syntax-dynamic-import",
+    "prepare": "../../node_modules/.bin/babel src -d dist --config-file ../../babel.config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -23,6 +23,6 @@
     "react": ">=16.8.0"
   },
   "dependencies": {
-    "intersection-observer": "^0.7.0"
+    "intersection-observer": "0.10.0"
   }
 }

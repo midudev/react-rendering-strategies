@@ -8,7 +8,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "dwp=$(pwd) && ../../node_modules/.bin/babel $dwp/index.js --out-file $dwp/dist/index.js --presets=@babel/react",
+    "prepare": "../../node_modules/.bin/babel src -d dist --config-file ../../babel.config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
