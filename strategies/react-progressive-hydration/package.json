@@ -1,6 +1,6 @@
 {
   "name": "@midudev/react-progressive-hydration",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Server Side Rendering for a component and skip the hydration step on the client but, as soon as it appears on the viewport, then hydrate it. Useful for list of items.",
   "main": "dist/index.js",
   "publishConfig": {
