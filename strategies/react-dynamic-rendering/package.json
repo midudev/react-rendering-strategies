@@ -8,6 +8,7 @@
   },
   "scripts": {
     "prepare": "../../node_modules/.bin/babel src -d dist --config-file ../../babel.config.json",
+    "release": "../../node_modules/.bin/np",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
