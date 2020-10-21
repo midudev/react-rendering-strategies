@@ -41,6 +41,6 @@ export default function SeoFooter({listOfLinks}) {
 
 
 ## Resources 🔗
-[Tweet about suppressHydrationWarning](https://twitter.com/reactjs/status/928650326701494273?lang=es)
-[suppressHydrationWarning Pull Request](https://github.com/facebook/react/pull/11126)
-[Hack for avoiding hydration](https://github.com/facebook/react/issues/10923#issuecomment-338715787)
+- [Tweet about suppressHydrationWarning](https://twitter.com/reactjs/status/928650326701494273?lang=es)
+- [suppressHydrationWarning Pull Request](https://github.com/facebook/react/pull/11126)
+- [Hack for avoiding hydration](https://github.com/facebook/react/issues/10923#issuecomment-338715787)
