@@ -18,7 +18,7 @@ Server Side Rendering for a component and skip the hydration step on the client.
 - 📸 For expensive rendering lists or static content (SEO Footers)
 - 🤖 GoogleBot is definitely going to detect it
 
-## How to use 👨‍🏫
+## How to use 👨‍🏫
 Just wrap the components you want to be static on the client.
 
 ```javascript
