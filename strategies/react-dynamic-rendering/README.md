@@ -27,11 +27,11 @@ Just wrap the components you want to be static on the client.
 ```javascript
 import DynamicRendering from '@midudev/react-dynamic-rendering'
 
-export default function DynamicRenderingPage({articles}) {
+export default function DynamicRenderingPage({articles, isBot}) {
   return (
     <Grid>
       {articles.map((article, idx) => (
-        <ProgressiveHydration key={idx} force={idx < 3}>
+        <DynamicRendering key={idx} force={idx < 3} isBot={isBot}>
           <Card {...article} />
         </ProgressiveHydration>
       ))}
